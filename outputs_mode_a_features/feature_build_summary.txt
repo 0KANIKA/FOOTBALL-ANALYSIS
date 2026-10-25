@@ -1,0 +1,20 @@
+MODE A PRE-TRANSFER FEATURE BUILD SUMMARY
+=========================================
+Project: C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics
+Transfer rows: 16,862
+Unique transfer_row_id values: 16,862
+Rows with valid transfer date: 16,862
+Rows with appearance player match: 16,862
+
+Files written:
+- mode_a_pretransfer_features.csv: predictor features from appearances strictly before transfer date, plus pre-transfer valuations when available. No post-transfer metrics are included in this file.
+- transfer_window_audit.csv: exact [transfer_date, transfer_date + 365 days) destination-club diagnostic counts and original target columns.
+- lineup_type_counts.csv: lineup type values and counts; inspect before engineering start/bench features.
+
+Safety notes:
+- Do not merge the post-transfer diagnostic columns into model predictors.
+- Pre-transfer rates with zero pre-transfer minutes are missing (NaN), not zero.
+- Destination-club post metrics are only populated when to_club_id and player_club_id are available.
+- A transfer window may not be fully observable near the end of the archive. Check post_window_has_365d_calendar_span and the master complete_365_day_window flag.
+- Compare archive-derived post metrics with existing master targets before replacing any target definition.
+- Keep the existing Mode A baseline and chronological split unchanged for fair comparison.

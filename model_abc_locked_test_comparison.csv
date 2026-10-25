@@ -1,0 +1,4 @@
+Model,MAE,RMSE,R2
+A - Player Only,0.122038,0.171886,0.549471
+B - Player + Team Performance,0.120192,0.168063,0.569293
+C - Player + Rich Team Context,0.119643,0.168064,0.569287

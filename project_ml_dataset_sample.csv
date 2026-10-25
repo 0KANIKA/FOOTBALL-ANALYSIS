@@ -1,0 +1,6 @@
+data_status,player_id,transfer_date,age_at_transfer,position,minutes_pre,goals_per90_pre,assists_per90_pre,market_value_pre,dest_possession,dest_passes_per90,dest_progression_per90,dest_attacking_per90,dest_defensive_per90,transfer_fee,league,season,post_transfer_performance
+ILLUSTRATIVE_SYNTHETIC_POC,10001,2019-07-01,23,Midfielder,1820,0.18,0.21,12000000,61.4,548.2,31.6,14.8,9.3,15000000,Premier League,2019/20,0.74
+ILLUSTRATIVE_SYNTHETIC_POC,10002,2019-08-12,27,Forward,2140,0.61,0.24,25000000,54.7,421.8,24.1,18.2,11.7,32000000,La Liga,2019/20,0.68
+ILLUSTRATIVE_SYNTHETIC_POC,10003,2019-07-15,21,Defender,1610,0.04,0.08,8000000,57.9,493.5,29.8,11.2,16.4,10000000,Serie A,2019/20,0.71
+ILLUSTRATIVE_SYNTHETIC_POC,10004,2020-01-10,25,Midfielder,1985,0.12,0.35,18000000,58.2,512.7,34.2,15.7,12.1,21000000,Ligue 1,2019/20,0.66
+ILLUSTRATIVE_SYNTHETIC_POC,10005,2019-08-01,29,Defender,2250,0.02,0.05,9000000,52.8,389.4,19.7,9.8,18.9,7000000,Premier League,2019/20,0.63

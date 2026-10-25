@@ -1,0 +1,4 @@
+comparison,model_1_better_cases,model_2_better_cases,ties,model_1_better_percent,model_2_better_percent
+A_vs_B,646,548,0,54.10385259631491,45.89614740368509
+B_vs_C,580,614,0,48.57621440536013,51.42378559463987
+A_vs_C,645,549,0,54.020100502512555,45.97989949748744

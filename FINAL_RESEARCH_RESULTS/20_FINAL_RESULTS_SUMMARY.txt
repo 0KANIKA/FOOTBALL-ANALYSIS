@@ -1,0 +1,174 @@
+
+============================================================
+FINAL RESEARCH RESULTS SUMMARY
+============================================================
+
+DATASET
+------------------------------------------------------------
+Final cohort: 5,969 transfers
+Unique players: 3,399
+Unique destination clubs: 396
+
+Transfer date range:
+2012-09-03 to 2025-06-10
+
+Target:
+Post-transfer G+A/90
+
+Target mean: 0.257654
+Target median: 0.178100
+Target standard deviation: 0.252060
+Target minimum: 0.000000
+Target maximum: 1.867220
+
+
+============================================================
+TEST SET
+============================================================
+
+Common test records: 1,194
+
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+MODEL A — PLAYER CHARACTERISTICS
+
+Test MAE:  0.123159
+Test RMSE: 0.172344
+Test R²:   0.551043
+
+
+MODEL B — PLAYER + BASIC TEAM CONTEXT
+
+Test MAE:  0.121047
+Test RMSE: 0.169027
+Test R²:   0.568156
+
+
+MODEL C — PLAYER + RICH CONTEXT
+
+Test MAE:  0.121325
+Test RMSE: 0.169764
+Test R²:   0.564382
+
+
+============================================================
+INCREMENTAL PERFORMANCE
+============================================================
+
+A -> B
+
+MAE change:
+-1.7146%
+
+Mean paired MAE difference:
+0.002112
+
+Bootstrap 95% CI:
+[0.000764,
+ 0.003406]
+
+Wilcoxon p-value:
+0.001579
+
+
+B -> C
+
+MAE change:
+0.2298%
+
+Mean paired MAE difference:
+-0.000278
+
+Bootstrap 95% CI:
+[-0.001564,
+ 0.001006]
+
+Wilcoxon p-value:
+0.422961
+
+
+A -> C
+
+MAE change:
+-1.4888%
+
+Mean paired MAE difference:
+0.001834
+
+Bootstrap 95% CI:
+[0.000192,
+ 0.003431]
+
+Wilcoxon p-value:
+0.019487
+
+
+============================================================
+GENERALIZATION
+============================================================
+
+Model A train-test R² gap:
+0.116840
+
+Model B train-test R² gap:
+0.120671
+
+Model C train-test R² gap:
+0.138460
+
+
+============================================================
+PRIMARY FINDING
+============================================================
+
+Adding basic destination-team context from Model A to Model B
+reduced test MAE by approximately
+1.71% and increased test R² from
+0.5510 to 0.5682.
+
+The paired bootstrap confidence interval for the A -> B
+MAE difference did not include zero, and the Wilcoxon
+signed-rank test produced p = 0.001579.
+
+Adding the richer contextual features in Model C did not
+produce a statistically detectable reduction in MAE compared
+with Model B.
+
+The B -> C bootstrap confidence interval included zero and
+the Wilcoxon test produced p = 0.422961.
+
+Model C achieved higher training R² than Model B, but its
+test R² was slightly lower than Model B. This indicates that
+the additional contextual representation increased training
+fit without producing an additional out-of-sample performance
+gain in the present experiment.
+
+
+============================================================
+IMPORTANT INTERPRETATION
+============================================================
+
+The results support an incremental-value interpretation:
+
+Player characteristics provide substantial predictive
+information.
+
+Adding basic destination-team context provides a measurable
+improvement in out-of-sample prediction.
+
+Adding the richer contextual feature set does not provide
+additional aggregate predictive improvement beyond the basic
+team-context model in this dataset and experimental setup.
+
+These results should not be interpreted as evidence that
+richer contextual factors are universally unimportant.
+Their usefulness may depend on feature representation,
+coverage, data quality, and model specification.
+
+
+============================================================
+END OF SUMMARY
+============================================================

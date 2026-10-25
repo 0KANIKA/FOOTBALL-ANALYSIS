@@ -1,0 +1,83 @@
+feature,importance
+num__goals_per90_pre,0.11052325493449183
+cat__target_position_group_Attack,0.10941956501929759
+cat__position_Attack,0.09943508970991895
+num__goals_pre,0.06664807550457838
+cat__sub_position_Centre-Forward,0.05098838723809396
+num__assists_per90_pre,0.0506478925396415
+cat__position_Defender,0.036932465198729524
+num__assists_pre,0.03650864770898296
+cat__target_position_group_Defender,0.029381900724159735
+num__position_minutes_share,0.02441088616710323
+cat__sub_position_Attacking Midfield,0.017832362430699
+num__same_sub_position_competitor_minutes,0.01776278179381671
+num__height_in_cm,0.016306871981692988
+num__same_position_avg_market_value,0.015938544095243683
+cat__sub_position_Goalkeeper,0.014746034179867347
+cat__sub_position_Centre-Back,0.014698538688604346
+num__rich_team_goal_difference_avg10,0.014593896074454308
+num__market_value_pre,0.014447927706879967
+num__same_position_competitor_minutes,0.01442596454074118
+cat__position_Midfield,0.014115425289141979
+cat__target_position_group_Midfield,0.013801582957418297
+num__same_sub_position_top_minutes,0.013274469546377643
+num__transfer_market_value,0.012959205610361322
+num__minutes_pre,0.012705694554923628
+num__same_position_competitor_count,0.011996436423150732
+cat__position_Goalkeeper,0.011647508801133369
+cat__target_position_group_Goalkeeper,0.011273820261137688
+num__age_at_transfer,0.01119092044777165
+num__rich_team_points_per_game10,0.011187311278015503
+num__rich_team_goals_for_avg10,0.011032152768189564
+num__same_position_top_competitor_minutes,0.010767705966942449
+num__rich_team_goals_against_avg10,0.009579792053255511
+num__appearances_pre,0.009531245937941794
+cat__sub_position_Defensive Midfield,0.00942588628526218
+num__transfer_fee,0.009233608847119077
+num__rich_team_win_rate10,0.00716951240030061
+num__yellow_cards_pre,0.006928983458732768
+num__dominant_formation_frequency10,0.005823351165477113
+num__same_sub_position_competitor_count,0.0057646760053205875
+num__formation_diversity10,0.004776349281625431
+cat__sub_position_Left Winger,0.0044548259805844825
+cat__sub_position_Central Midfield,0.004121435493648723
+cat__sub_position_Right Winger,0.002576707164123463
+num__manager_matches_last10,0.0024242118029672776
+cat__dominant_formation10_4-2-3-1,0.0018329595729120105
+cat__foot_right,0.0017924027703817257
+cat__foot_left,0.0016243956299108187
+num__previous_destination_minutes,0.0015779117022366813
+num__previous_destination_appearances,0.0014771274738657762
+cat__dominant_formation10_4-3-3 Attacking,0.0013193605989240695
+cat__sub_position_Right-Back,0.0012301217684776357
+num__unique_managers_last10,0.0010760729676598216
+cat__sub_position_Left-Back,0.0007971248638297156
+cat__dominant_formation10_4-4-2 double 6,0.0006776799278923821
+cat__foot_both,0.000584305238437894
+cat__dominant_formation10_4-3-3 Defending,0.0005418224411133743
+cat__sub_position_Second Striker,0.0004768136122932326
+cat__dominant_formation10_Unknown,0.0004369652309817119
+cat__dominant_formation10_4-4-2,0.00032895630050814103
+num__red_cards_pre,0.00018248679779070114
+cat__dominant_formation10_4-1-4-1,0.0001558518342152264
+cat__dominant_formation10_3-5-2 flat,0.00012645520708502448
+cat__dominant_formation10_3-4-2-1,8.850086626176548e-05
+cat__dominant_formation10_4-3-1-2,5.2556244652615505e-05
+cat__sub_position_Left Midfield,4.1976312192625503e-05
+cat__sub_position_Right Midfield,3.887262000827629e-05
+cat__dominant_formation10_3-4-3,3.530909690230759e-05
+cat__dominant_formation10_5-3-2,3.340428372190712e-05
+num__rich_team_matches_last10,2.8748469541971168e-05
+cat__dominant_formation10_3-5-2,1.0597031576212857e-05
+cat__dominant_formation10_3-5-2 Attacking,8.457632752884923e-06
+cat__dominant_formation10_3-4-1-2,6.433613026552031e-06
+cat__dominant_formation10_5-4-1,2.6681573076164705e-06
+cat__dominant_formation10_4-4-2 Diamond,1.4253395824205732e-06
+cat__dominant_formation10_4-4-1-1,3.303760370660752e-07
+cat__dominant_formation10_3-4-3 Diamond,0.0
+cat__foot_nan,0.0
+cat__dominant_formation10_3-1-4-2,0.0
+cat__dominant_formation10_4-1-3-2,0.0
+cat__dominant_formation10_4-3-2-1,0.0
+cat__dominant_formation10_4-3-3,0.0
+cat__dominant_formation10_4-5-1 flat,0.0

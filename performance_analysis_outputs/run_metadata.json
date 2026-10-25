@@ -1,0 +1,22 @@
+{
+  "output_grains": {
+    "player_performance_profiles.csv": "one row per player over full observed appearance history",
+    "player_season_performance.csv": "one row per player per games.season value",
+    "player_transfer_performance.csv": "one row per validated transfer_row_id",
+    "metric_coverage.csv": "one row per metric/coverage check"
+  },
+  "reliability_thresholds": {
+    "minimum_minutes": 450,
+    "minimum_appearances": 5,
+    "minimum_peer_group": 10
+  },
+  "natural_transfer_key": "player_id|transfer_date|from_club_id|to_club_id|transfer_season|transfer_fee",
+  "statsbomb_match_method": "exact normalized player name, unique Transfermarkt target only",
+  "source_rows": {
+    "duplicate_appearance_ids_seen": 0,
+    "transfer_cohort": 16862,
+    "player_profiles": 29531,
+    "player_seasons": 97985,
+    "player_transfers": 16862
+  }
+}

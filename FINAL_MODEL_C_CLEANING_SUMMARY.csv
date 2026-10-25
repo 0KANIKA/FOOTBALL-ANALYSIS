@@ -1,0 +1,11 @@
+metric,value
+original_records,6108.0
+clean_records,5969.0
+removed_records,139.0
+retention_percent,97.72
+duplicate_transfer_ids_clean,0.0
+missing_target_clean,0.0
+minimum_team_matches,0.0
+train_records,3581.0
+validation_records,1193.0
+test_records,1195.0

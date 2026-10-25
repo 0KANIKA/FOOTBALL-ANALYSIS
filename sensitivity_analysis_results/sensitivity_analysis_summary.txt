@@ -1,0 +1,15 @@
+Post-Transfer Minutes Sensitivity Analysis
+============================================================
+Primary threshold: 450 post-transfer minutes
+Primary cohort size: 7000
+
+Threshold 450 min: n=7000, median G+A/90=0.1766, mean=0.2537, std=0.2482
+Threshold 600 min: n=6591, median G+A/90=0.1787, mean=0.2553, std=0.2463
+Threshold 900 min: n=5739, median G+A/90=0.1784, mean=0.2556, std=0.2440
+Threshold 1200 min: n=4889, median G+A/90=0.1777, mean=0.2584, std=0.2451
+Threshold 1500 min: n=4118, median G+A/90=0.1755, mean=0.2591, std=0.2467
+
+Interpretation:
+Increasing the minimum post-transfer minutes threshold reduces the cohort size while selecting players with greater observed playing exposure.
+The 450-minute threshold remains the primary cohort because it provides the largest eligible sample among the tested thresholds while reducing extremely low-exposure observations.
+Higher thresholds are treated as sensitivity cohorts rather than replacements for the primary cohort.

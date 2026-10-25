@@ -1,0 +1,14 @@
+metric,definition,source_columns,unit,grain,window
+goals,Sum of recorded goals,appearances.csv:goals,goals,player/window,"observed, season, or transfer window"
+assists,Sum of recorded assists,appearances.csv:assists,assists,player/window,"observed, season, or transfer window"
+goal_contributions_per90,(goals + assists) * 90 / minutes,"goals, assists, minutes_played",per 90 minutes,player/window,rate is missing when minutes <= 0
+minutes_per_appearance,minutes / appearances,"minutes_played, game_id",minutes per appearance,player/window,missing when appearances <= 0
+starts,Unique games with lineup type starting_lineup,"game_lineups.csv:game_id,player_id,type",starts,player/observed history,full observed history
+substitute_appearances,Appearance records minus verified starts,appearances.csv and game_lineups.csv,appearances,player/observed history,not bench listings
+yellow_cards_per90,yellow cards * 90 / minutes,"yellow_cards, minutes_played",per 90 minutes,player/window,missing when minutes <= 0
+red_cards_per90,red cards * 90 / minutes,"red_cards, minutes_played",per 90 minutes,player/window,missing when minutes <= 0
+market_value_change_365,Latest valuation within one year after transfer minus latest valuation on/before transfer,"player_valuations.csv:date,market_value_in_eur",EUR,transfer,transfer date to +365 days
+fee_to_market_value_ratio,positive transfer fee / observed pre-transfer market value,transfers.csv:transfer_fee and player_valuations.csv,ratio,transfer,descriptive only
+percentile_*,Within-position or within-sub-position percentile among players meeting reliability thresholds,"derived rates, position, sub_position",percentile 0-100,player profile,full observed history
+season_id,Verified season field joined from games.csv by game_id,"games.csv:game_id,season",source season identifier,player-season,"football season, not calendar year"
+statsbomb_event_metrics,Event counts for exact unique normalized-name matches only,StatsBomb events JSON,event counts,matched player,available StatsBomb matches only

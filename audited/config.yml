@@ -1,0 +1,20 @@
+root: ..
+data:
+  target: post_transfer_performance.csv
+  enhanced_team: rich_team_context_dataset.csv
+  coach: coach_tactical_context_v21.csv
+cohort:
+  complete_365_day_window: true
+  eligible_450min: true
+split:
+  method: chronological
+  proportions: [0.60, 0.20, 0.20]
+model:
+  implementation: sklearn RandomForestRegressor
+  seed: 42
+  trees_final: 60
+  validation_search_trees: 30
+  max_features: [sqrt, 0.5]
+  min_samples_leaf: [5, 10]
+  categorical_min_frequency: 10
+selection_metric: validation_MAE

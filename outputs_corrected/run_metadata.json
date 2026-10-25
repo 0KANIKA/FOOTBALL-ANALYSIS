@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "chronological_split_requested": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "split_boundary": "whole transfer dates; closest cumulative counts to 60% and 80%, constrained to non-empty splits",
+  "initial_joined_rows": 16862,
+  "eligible_full_window_rows": 6108,
+  "primary_common_cohort_rows": 6108,
+  "exact_duplicate_transfer_rows_removed": 0,
+  "n_train": 3660,
+  "n_validation": 1225,
+  "n_test": 1223,
+  "tuning_rule": "full 2x2 grid; select by validation MAE; test not used for selection",
+  "validation_reporting": "fit on train only; validation is a hyperparameter-selection set and is not an independent unbiased estimate",
+  "test_fit_rule": "refit selected configuration on train+validation before one held-out test evaluation",
+  "tuning_trees": 25,
+  "final_trees": 100,
+  "feature_identity_validation": "identity fields compared when available; warning emitted when they are not available in context sources"
+}

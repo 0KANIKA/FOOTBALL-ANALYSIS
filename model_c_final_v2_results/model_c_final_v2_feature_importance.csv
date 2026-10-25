@@ -1,0 +1,83 @@
+feature,importance
+cat__target_position_group_Attack,0.12504448308722677
+num__goals_per90_pre,0.1219514545082689
+cat__position_Attack,0.11221602097167084
+num__goals_pre,0.0709062088029821
+cat__sub_position_Centre-Forward,0.0554394670918323
+num__assists_per90_pre,0.05269844612963624
+cat__position_Defender,0.03933739805046858
+num__assists_pre,0.03671627492296114
+cat__target_position_group_Defender,0.03354596751465507
+num__position_minutes_share,0.02202243902674768
+cat__sub_position_Attacking Midfield,0.020177396372115686
+cat__sub_position_Centre-Back,0.01792453145053409
+cat__sub_position_Goalkeeper,0.016552039124006136
+num__same_sub_position_competitor_minutes,0.01637027647841403
+cat__position_Midfield,0.0162671066607239
+cat__target_position_group_Midfield,0.014512220083892616
+num__height_in_cm,0.013735875310424233
+cat__position_Goalkeeper,0.013001974370873103
+cat__target_position_group_Goalkeeper,0.012670518590981132
+num__market_value_pre,0.011725749728938929
+num__same_position_avg_market_value,0.011655293569152384
+cat__sub_position_Defensive Midfield,0.0109780069494439
+num__same_position_competitor_minutes,0.01077631372018204
+num__same_sub_position_top_minutes,0.010623091416613828
+num__rich_team_goal_difference_avg10,0.010498324473847508
+num__same_position_competitor_count,0.01017750138434384
+num__transfer_market_value,0.010131839194088102
+num__minutes_pre,0.008726624671666764
+num__rich_team_points_per_game10,0.008562639466466092
+num__rich_team_goals_for_avg10,0.008127514756849138
+num__same_position_top_competitor_minutes,0.007250946984979058
+num__transfer_fee,0.007021303004490664
+num__age_at_transfer,0.006648478666757343
+num__appearances_pre,0.006204858613502949
+num__rich_team_goals_against_avg10,0.006067438625757624
+num__rich_team_win_rate10,0.0056986232261480385
+num__yellow_cards_pre,0.00467339407477478
+cat__sub_position_Left Winger,0.004346587885809583
+cat__sub_position_Central Midfield,0.003993572927638744
+num__dominant_formation_frequency10,0.0037478381249645798
+num__same_sub_position_competitor_count,0.0036965741361571743
+num__formation_diversity10,0.0030633871327085606
+cat__sub_position_Right Winger,0.0023475704916240017
+cat__foot_right,0.0016612008589958229
+num__manager_matches_last10,0.0013761942522910184
+cat__sub_position_Left-Back,0.0013443939115751942
+cat__dominant_formation10_4-2-3-1,0.0013087099816400096
+cat__sub_position_Right-Back,0.0012057322434564453
+cat__foot_left,0.000914301403575504
+num__previous_destination_appearances,0.0007991686759029589
+num__previous_destination_minutes,0.0007028060872843817
+cat__dominant_formation10_4-3-3 Attacking,0.0006950921002620821
+num__unique_managers_last10,0.0006213139362825958
+cat__dominant_formation10_Unknown,0.0004068152325838156
+cat__dominant_formation10_4-3-3 Defending,0.00030040721176650417
+cat__sub_position_Second Striker,0.0002688423344950135
+cat__dominant_formation10_4-4-2 double 6,0.00021244390145763278
+cat__foot_both,0.00014181253157822277
+cat__dominant_formation10_4-4-2,5.8539648593545445e-05
+cat__dominant_formation10_4-1-4-1,4.1569425220671e-05
+num__red_cards_pre,3.472451683937711e-05
+cat__sub_position_Right Midfield,2.958912542008223e-05
+cat__sub_position_Left Midfield,1.3757854664513512e-05
+cat__dominant_formation10_3-5-2 flat,1.1767837891521083e-05
+cat__dominant_formation10_3-4-2-1,9.92553202169894e-06
+cat__dominant_formation10_4-3-1-2,3.2292316306642116e-06
+cat__dominant_formation10_3-4-3,2.202825177466748e-06
+num__rich_team_matches_last10,1.8875640730975582e-06
+cat__dominant_formation10_3-5-2,0.0
+cat__dominant_formation10_3-4-3 Diamond,0.0
+cat__dominant_formation10_3-4-1-2,0.0
+cat__foot_nan,0.0
+cat__dominant_formation10_3-1-4-2,0.0
+cat__dominant_formation10_3-5-2 Attacking,0.0
+cat__dominant_formation10_4-1-3-2,0.0
+cat__dominant_formation10_4-4-1-1,0.0
+cat__dominant_formation10_4-3-3,0.0
+cat__dominant_formation10_4-3-2-1,0.0
+cat__dominant_formation10_4-4-2 Diamond,0.0
+cat__dominant_formation10_5-4-1,0.0
+cat__dominant_formation10_4-5-1 flat,0.0
+cat__dominant_formation10_5-3-2,0.0

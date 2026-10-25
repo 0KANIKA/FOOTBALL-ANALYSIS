@@ -1,0 +1,7 @@
+source,file,file_found_readable,source_rows,cohort_rows_with_match,cohort_row_match_pct,unique_cohort_players_matched,unique_cohort_players_match_pct,notes
+players,C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics\archive\players.csv,True,50149,16862,100.0,7209,100.0,Player-ID overlap only; not proof of date/club/metric coverage.
+appearances,C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics\archive\appearances.csv,True,1894350,16862,100.0,7209,100.0,Player-ID overlap only; not proof of date/club/metric coverage.
+games,C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics\archive\games.csv,True,88958,0,0.0,0,0.0,No player_id column; cannot match cohort.
+valuations,C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics\archive\player_valuations.csv,True,656301,16862,100.0,7209,100.0,Player-ID overlap only; not proof of date/club/metric coverage.
+events,C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics\archive\game_events.csv,True,1274469,16833,99.83,7186,99.68,Player-ID overlap only; not proof of date/club/metric coverage.
+lineups,C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics\archive\game_lineups.csv,True,3179016,16862,100.0,7209,100.0,Player-ID overlap only; not proof of date/club/metric coverage.

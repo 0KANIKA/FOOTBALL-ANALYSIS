@@ -1,0 +1,17 @@
+target_or_metric,status,rows_available,coverage_pct,definition_or_caution
+post_GA90,already in master cohort,16862,100.0,Check eligibility and exact post-transfer observation window before modelling.
+post_goals,already in master cohort,16862,100.0,Check eligibility and exact post-transfer observation window before modelling.
+post_assists,already in master cohort,16862,100.0,Check eligibility and exact post-transfer observation window before modelling.
+post_minutes,already in master cohort,16862,100.0,Check eligibility and exact post-transfer observation window before modelling.
+post_appearances,already in master cohort,16862,100.0,Check eligibility and exact post-transfer observation window before modelling.
+complete_365_day_window,already in master cohort,16862,100.0,Check eligibility and exact post-transfer observation window before modelling.
+eligible_450min,already in master cohort,16862,100.0,Check eligibility and exact post-transfer observation window before modelling.
+goals_per90_post_derived,candidate / needs validation,0,0.0,"Candidate source: appearances.csv: goals, minutes_played. Sum post-transfer goals / post-transfer minutes * 90; confirm same 365-day window and destination club."
+assists_per90_post_derived,candidate / needs validation,0,0.0,"Candidate source: appearances.csv: assists, minutes_played. Sum post-transfer assists / post-transfer minutes * 90; confirm same 365-day window and destination club."
+yellow_cards_per90_post_derived,candidate / needs validation,0,0.0,"Candidate source: appearances.csv: yellow_cards, minutes_played. Sum post-transfer yellow cards / minutes * 90; low counts can be noisy."
+red_cards_per90_post_derived,candidate / needs validation,0,0.0,"Candidate source: appearances.csv: red_cards, minutes_played. Sum post-transfer red cards / minutes * 90; sparse outcome, treat cautiously."
+market_value_change_365d,candidate / needs validation,0,0.0,"Candidate source: player_valuations.csv: date, market_value_in_eur, player_id. Only derive if valuations exist near transfer date and around +365 days; report actual observation gap."
+successful_tackles,candidate / needs validation,0,0.0,Candidate source: Not in listed local appearances/events schema. Requires a source with defensive event or player-match statistics; do not infer from goals/cards.
+pass_completion_pct,candidate / needs validation,0,0.0,Candidate source: Not in listed local appearances/events schema. Requires completed and attempted passes or equivalent event data.
+interceptions,candidate / needs validation,0,0.0,Candidate source: Not in listed local appearances/events schema. Requires defensive event or player-match statistics.
+duels_won_pct,candidate / needs validation,0,0.0,Candidate source: Not in listed local appearances/events schema. Requires duel attempts and wins; define duel types consistently.

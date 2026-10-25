@@ -1,0 +1,401 @@
+transfer_row_id,player_id,transfer_date,from_club_name,to_club_name,position,transfer_fee,post_minutes_ground_truth,has_post_transfer_appearances,eligible_450min,statsbomb_open_data_candidate,sofascore_match_expected,whoscored_match_expected,fotmob_match_expected
+5,44059,2013-01-01,KV Kortrijk,KAA Gent,Defender,625000.0,1350.0,True,True,False,False,False,False
+10,181767,2013-01-02,Roma,Corinthians,Defender,0.0,0.0,False,False,False,False,False,False
+15,88262,2013-01-08,FC Twente,Man City,Defender,0.0,140.0,True,False,False,False,False,False
+16,126687,2013-01-09,OGC Nice,Monaco,Midfield,0.0,0.0,False,False,False,False,False,False
+17,76028,2013-01-11,Metalist Kharkiv,Shakhtar D.,Attack,15240000.0,2466.0,True,True,False,False,True,False
+26,155395,2013-01-23,Real Betis,AC Siena,Attack,0.0,337.0,True,False,False,False,False,False
+33,34283,2013-01-31,Panathinaikos,Bologna,Midfield,0.0,1305.0,True,True,False,False,False,False
+39,95438,2013-01-31,Inter,Atalanta,Attack,5050000.0,1440.0,True,True,False,False,True,False
+40,134999,2013-01-31,ADO Den Haag,Utrecht,Midfield,950000.0,3433.0,True,True,False,False,False,False
+111,48015,2013-07-01,Esbjerg fB,Bröndby IF,Goalkeeper,0.0,2970.0,True,True,False,False,False,False
+162,33781,2013-07-03,Arsenal,Sunderland,Goalkeeper,2400000.0,2657.0,True,True,False,False,True,False
+166,14555,2013-07-04,Bursaspor,Wigan,Goalkeeper,820000.0,0.0,False,False,False,False,False,False
+178,55735,2013-07-09,Shakhtar D.,Dortmund,Midfield,27500000.0,3663.0,True,True,False,False,True,False
+182,54217,2013-07-10,Athletic Club,CD Numancia,Goalkeeper,0.0,0.0,False,False,False,False,False,False
+184,48002,2013-07-11,Torino,Juventus,Defender,15000000.0,1839.0,True,True,False,False,True,False
+189,134602,2013-07-12,Braga,Videoton FC,Attack,0.0,0.0,False,False,False,False,False,False
+199,4391,2013-07-18,PSV Eindhoven,Karabükspor,Goalkeeper,0.0,3060.0,True,True,False,False,False,False
+226,212832,2013-08-23,PAOK,Apol. Kalamarias,Midfield,0.0,64.0,True,False,False,False,False,False
+232,69633,2013-08-30,Ajax,Tottenham,Midfield,14150000.0,2707.0,True,True,False,False,True,False
+237,46062,2013-08-31,Parma,PAOK Salonika,Midfield,0.0,1379.0,True,True,False,False,False,False
+239,81796,2013-08-31,Swansea,Sunderland,Midfield,0.0,2248.0,True,True,False,False,False,False
+245,42735,2013-09-02,Heerenveen,Zulte Waregem,Midfield,,2410.0,True,True,False,False,False,False
+246,44062,2013-09-02,Real Madrid,Without Club,Goalkeeper,,0.0,False,False,False,False,False,False
+247,45333,2013-09-02,Wigan,Everton,Midfield,15300000.0,3486.0,True,True,False,False,True,False
+251,128931,2013-09-02,Olympiacos,Genoa,Attack,4000000.0,1339.0,True,True,False,False,True,False
+260,50355,2014-01-01,Dinamo Moscow,Anzhi,Attack,0.0,1130.0,True,True,False,False,False,False
+261,90478,2014-01-01,Cercle Brugge,OH Leuven,Midfield,0.0,575.0,True,True,False,False,False,False
+262,112515,2014-01-01,Fiorentina,Sunderland,Defender,0.0,1453.0,True,True,False,False,False,False
+278,90959,2014-01-20,Bursaspor,Karabükspor,Defender,0.0,1555.0,True,True,False,False,False,False
+281,82048,2014-01-21,Parma,Sassuolo,Attack,8250000.0,2542.0,True,True,False,False,True,False
+294,42913,2014-01-30,Aalborg BK,NEC Nijmegen,Defender,300000.0,1143.0,True,True,False,False,False,False
+305,80197,2014-01-31,Rubin Kazan,Zenit S-Pb,Attack,18000000.0,2644.0,True,True,False,False,True,False
+311,58534,2014-02-03,Kayserispor,K. Erciyesspor,Goalkeeper,0.0,2970.0,True,True,False,False,False,False
+312,67797,2014-02-03,Sivasspor,Without Club,Goalkeeper,,0.0,False,False,False,False,False,False
+313,88374,2014-02-03,Eskisehirspor,Galatasaray,Defender,700000.0,1048.0,True,True,False,False,False,False
+341,55619,2014-06-30,Málaga CF,Galatasaray,Attack,0.0,0.0,False,False,False,False,False,False
+349,68978,2014-06-30,Volga NN,Zenit S-Pb,Defender,0.0,247.0,True,False,False,False,False,False
+354,81999,2014-06-30,E. Frankfurt,TSG Hoffenheim,Attack,0.0,0.0,False,False,False,False,False,False
+363,94199,2014-06-30,Hertha BSC,Wolfsburg,Midfield,0.0,0.0,False,False,False,False,False,False
+366,96790,2014-06-30,Olhanense,Roma,Defender,0.0,0.0,False,False,False,False,False,False
+403,153238,2014-06-30,Rayo Vallecano,Valencia,Midfield,0.0,0.0,False,False,False,False,False,False
+447,55000,2014-07-01,Sampdoria,Juventus,Goalkeeper,1900000.0,0.0,False,False,False,False,False,False
+468,104990,2014-07-01,Olhanense,Without Club,Attack,,0.0,False,False,False,False,False,False
+486,183288,2014-07-01,Southampton,Man Utd,Defender,37500000.0,1311.0,True,True,False,False,True,False
+487,191853,2014-07-01,Panionios,AEK Athens,Goalkeeper,0.0,0.0,False,False,False,False,False,False
+506,40433,2014-07-10,Barcelona,Arsenal,Attack,42500000.0,4236.0,True,True,True,False,True,False
+528,61764,2014-07-19,Vit. Guimarães,Nacional,Attack,0.0,3056.0,True,True,False,False,False,False
+530,142924,2014-07-19,Zulte Waregem,KVC Westerlo,Defender,0.0,1445.0,True,True,False,False,False,False
+544,73396,2014-07-27,Nice,Arsenal,Goalkeeper,4000000.0,1918.0,True,True,True,False,True,False
+558,175722,2014-07-31,Sporting,Tottenham,Defender,5000000.0,2660.0,True,True,False,False,True,False
+572,52570,2014-08-09,Celtic,Southampton,Goalkeeper,12500000.0,2894.0,True,True,False,False,True,False
+604,60957,2014-08-30,Mainz,Union Berlin,Attack,0.0,0.0,False,False,False,False,False,False
+623,42913,2014-09-01,NEC Nijmegen,KAA Gent,Defender,0.0,2159.0,True,True,False,False,False,False
+663,41653,2015-01-09,Genclerbirligi,Midtjylland,Goalkeeper,450000.0,1710.0,True,True,False,False,False,False
+665,46415,2015-01-09,Dinamo Zagreb,Cagliari,Attack,0.0,936.0,True,True,False,False,False,False
+668,70209,2015-01-10,Vit. Guimarães,Basel,Defender,1500000.0,0.0,False,False,False,False,False,False
+672,92567,2015-01-15,Ergotelis,Metalist Kharkiv,Midfield,0.0,0.0,False,False,False,False,False,False
+681,108880,2015-01-21,Hoffenheim,Wolfsburg,Goalkeeper,1500000.0,450.0,True,True,False,False,False,False
+722,120966,2015-02-25,Karpaty Lviv,FC Tiraspol,Goalkeeper,0.0,0.0,False,False,False,False,False,False
+750,46415,2015-06-30,Cagliari,Dinamo Zagreb,Attack,0.0,0.0,False,False,False,False,False,False
+752,50355,2015-06-30,Ural,Dinamo Moscow,Attack,0.0,0.0,False,False,False,False,False,False
+774,88909,2015-06-30,FC Empoli,AC Milan,Midfield,0.0,0.0,False,False,False,False,False,False
+796,126625,2015-06-30,Granada CF,Braga,Defender,0.0,0.0,False,False,False,False,False,False
+798,128220,2015-06-30,Málaga CF,Liverpool,Midfield,0.0,0.0,False,False,False,False,False,False
+800,129586,2015-06-30,Arouca,FC Porto B,Defender,0.0,0.0,False,False,False,False,False,False
+850,193158,2015-06-30,Goverla,Dynamo-2 Kyiv,Attack,0.0,0.0,False,False,False,False,False,False
+891,56631,2015-07-01,Feyenoord,Heerenveen,Goalkeeper,0.0,3330.0,True,True,False,False,False,False
+895,59352,2015-07-01,Krasnodar,Ural,Defender,0.0,2228.0,True,True,False,False,False,False
+935,138335,2015-07-01,Midtjylland,Stoke City,Goalkeeper,600000.0,585.0,True,True,False,False,False,False
+1016,76924,2015-07-18,Braga,Olympiacos,Attack,0.0,1900.0,True,True,False,False,False,False
+1021,107010,2015-07-20,Fiorentina,Atlético,Defender,12000000.0,1857.0,True,True,False,False,True,False
+1063,56523,2015-08-07,ADO Den Haag,Feyenoord,Attack,1500000.0,2543.0,True,True,False,False,False,False
+1072,111873,2015-08-11,Arsenal,Wolves,Goalkeeper,0.0,0.0,False,False,False,False,False,False
+1073,28396,2015-08-12,Man City,Roma,Attack,0.0,2555.0,True,True,False,False,False,False
+1102,45146,2015-08-27,Liverpool,AC Milan,Attack,0.0,996.0,True,True,False,False,False,False
+1106,91845,2015-08-28,Leverkusen,Tottenham,Attack,30000000.0,1871.0,True,True,False,False,True,False
+1113,16136,2015-08-30,Bayern Munich,Wolfsburg,Defender,4500000.0,2965.0,True,True,False,False,True,False
+1120,69374,2015-08-31,AS Roma,Inter,Midfield,0.0,1690.0,True,True,False,False,False,False
+1130,170934,2015-08-31,Marseille,Juventus,Midfield,0.0,1080.0,True,True,False,False,False,False
+1137,136610,2015-09-01,FC Nantes,Chelsea,Defender,3500000.0,0.0,False,False,False,False,True,False
+1143,61397,2015-12-31,Anzhi,Spartak Moscow,Goalkeeper,0.0,630.0,True,True,False,False,False,False
+1144,89297,2015-12-31,Moreirense ,Braga,Midfield,0.0,0.0,False,False,False,False,False,False
+1151,7161,2016-01-01,Dortmund,Mönchengladbach,Midfield,8000000.0,629.0,True,True,False,True,True,False
+1152,12029,2016-01-01,Angers SCO,Club Brugge,Goalkeeper,1000000.0,3330.0,True,True,False,True,False,False
+1163,28356,2016-01-02,Troyes,Angers SCO,Goalkeeper,0.0,630.0,True,True,False,True,False,False
+1184,247263,2016-01-12,Motherwell FC,Man Utd U21,Defender,0.0,0.0,False,False,False,True,False,False
+1186,137582,2016-01-13,Molde FK,Galatasaray,Defender,2000000.0,933.0,True,True,False,True,False,False
+1200,197032,2016-01-21,Hajduk Split,Rubin Kazan,Midfield,1000000.0,1374.0,True,True,False,True,False,False
+1202,91931,2016-01-22,Dnipro,Besiktas,Goalkeeper,3300000.0,270.0,True,False,False,True,True,False
+1208,98547,2016-01-25,SC Braga,Krasnodar,Goalkeeper,0.0,3305.0,True,True,False,True,False,False
+1212,249994,2016-01-25,Marítimo,Porto,Goalkeeper,1200000.0,270.0,True,False,False,True,False,False
+1230,130360,2016-01-29,SD Eibar,AC Milan,Midfield,0.0,0.0,False,False,False,True,False,False
+1307,80312,2016-06-30,Zorya Lugansk,Shakhtar D.,Goalkeeper,0.0,450.0,True,True,False,True,False,False
+1323,99863,2016-06-30,Zorya Lugansk,Shakhtar D.,Attack,0.0,0.0,False,False,False,True,False,False
+1336,128220,2016-06-30,Dep. La Coruña,Liverpool,Midfield,0.0,0.0,False,False,False,True,False,False
+1360,155025,2016-06-30,Paços Ferreira,Benfica B,Defender,0.0,0.0,False,False,False,True,False,False
+1371,168163,2016-06-30,Waasland-Beveren,Standard Liège,Midfield,0.0,0.0,False,False,False,True,False,False
+1397,189839,2016-06-30,Aarhus GF,Genk,Attack,0.0,0.0,False,False,False,True,False,False
+1406,215122,2016-06-30,Arouca,FC Porto B,Midfield,0.0,0.0,False,False,False,True,False,False
+1448,33210,2016-07-01,Stuttgart,Dep. La Coruña,Goalkeeper,500000.0,1125.0,True,True,False,True,False,False
+1458,45601,2016-07-01,ADO Den Haag,FC Ingolstadt,Goalkeeper,950000.0,2158.0,True,True,False,True,False,False
+1477,75458,2016-07-01,PAOK,Copenhagen,Goalkeeper,2400000.0,3600.0,True,True,False,True,True,False
+1481,82009,2016-07-01,Hoffenheim,Leverkusen,Midfield,20000000.0,2011.0,True,True,False,True,True,False
+1494,92469,2016-07-01,Bournemouth,Newcastle,Midfield,12000000.0,0.0,False,False,False,True,True,False
+1501,99922,2016-07-01,Barcelona,Dortmund,Defender,8000000.0,2606.0,True,True,False,True,True,False
+1550,248658,2016-07-01,Atromitos,AEK Athens,Goalkeeper,600000.0,1890.0,True,True,False,True,False,False
+1563,329722,2016-07-01,Vitória Setúbal,Benfica,Midfield,400000.0,927.0,True,True,False,True,False,False
+1576,33706,2016-07-05,Fenerbahçe,Valencia,Attack,8500000.0,1930.0,True,True,False,True,True,False
+1577,61592,2016-07-05,West Ham,Crystal Palace,Defender,11700000.0,2094.0,True,True,False,True,True,False
+1612,225083,2016-07-16,Leicester,Chelsea,Midfield,35800000.0,3436.0,True,True,False,True,True,False
+1630,120705,2016-07-23,Rayo Vallecano,Elche CF,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+1643,112930,2016-07-27,KAA Gent,Standard Liège,Attack,800000.0,1567.0,True,True,False,True,False,False
+1662,77066,2016-08-06,Sporting,Rosario Central,Attack,0.0,0.0,False,False,False,True,False,False
+1682,225462,2016-08-16,Levante,Cádiz CF,Midfield,0.0,0.0,False,False,False,True,False,False
+1685,95990,2016-08-17,Aalborg BK,Brann,Defender,,0.0,False,False,False,True,False,False
+1692,36709,2016-08-20,Ross County,Hibernian FC,Attack,0.0,34.0,True,False,False,True,False,False
+1704,146227,2016-08-25,Ajax,Barcelona,Goalkeeper,13000000.0,900.0,True,True,True,True,True,False
+1708,129444,2016-08-26,Napoli,Espanyol,Defender,4000000.0,3420.0,True,True,False,True,True,False
+1712,181112,2016-08-26,Barcelona,Granada CF,Midfield,0.0,1344.0,True,True,False,True,False,False
+1716,153657,2016-08-28,Vojvodina,KVC Westerlo,Defender,,1764.0,True,True,False,True,False,False
+1721,232271,2016-08-29,Lille,Southampton,Midfield,18700000.0,1172.0,True,True,False,True,True,False
+1732,353366,2016-08-30,Lille,Stuttgart,Defender,5000000.0,300.0,True,False,False,True,True,False
+1738,77825,2016-08-31,Lazio,Atalanta,Goalkeeper,0.0,2610.0,True,True,False,True,False,False
+1745,124715,2016-08-31,Torino,SSC Napoli,Defender,0.0,1026.0,True,True,False,True,False,False
+1747,139503,2016-08-31,West Ham,Everton,Attack,0.0,770.0,True,True,False,True,False,False
+1751,149716,2016-08-31,Monaco,Wolves,Attack,8000000.0,0.0,False,False,False,True,True,False
+1759,198067,2016-08-31,Hellas Verona,Bologna,Defender,0.0,902.0,True,True,False,True,False,False
+1761,238055,2016-08-31,Braga,Benfica,Attack,16000000.0,1577.0,True,True,False,True,True,False
+1766,138285,2016-09-07,Boavista,Sunderland,Goalkeeper,1500000.0,0.0,False,False,False,True,False,False
+1770,388581,2016-10-01,Vit. Guimarães,Guimarães B,Midfield,,0.0,False,False,False,True,False,False
+1775,59322,2016-12-31,Zorya Lugansk,Shakhtar D.,Defender,0.0,0.0,False,False,False,True,False,False
+1779,300538,2016-12-31,Slovan Liberec,Krasnodar 2,Attack,0.0,0.0,False,False,False,True,False,False
+1867,129476,2017-01-23,Everton,AC Milan,Attack,0.0,1473.0,True,True,False,True,False,False
+1889,234811,2017-01-27,Nacional,Granada CF,Goalkeeper,1000000.0,0.0,False,False,False,True,False,False
+1940,62514,2017-02-22,Anzhi,Ufa,Goalkeeper,,2790.0,True,True,False,True,False,False
+1946,169052,2017-03-30,Genoa,Udinese,Midfield,0.0,0.0,False,False,False,True,False,False
+1961,277335,2017-06-21,US Palermo,Palmeiras,Midfield,3500000.0,0.0,False,False,False,True,True,False
+1962,18644,2017-06-30,Middlesbrough,Valencia,Attack,0.0,0.0,False,False,False,True,False,False
+2007,111180,2017-06-30,Excelsior,Feyenoord,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+2032,155964,2017-06-30,FC Oleksandriya,Dynamo Kyiv,Defender,0.0,0.0,False,False,False,True,False,False
+2088,223560,2017-06-30,CD Leganés,Corinthians,Attack,0.0,0.0,False,False,False,True,False,False
+2090,224088,2017-06-30,Genoa,Man City U23,Midfield,0.0,0.0,False,False,False,True,False,False
+2098,240306,2017-06-30,Sampdoria,Udinese,Midfield,0.0,0.0,False,False,False,True,False,False
+2235,185077,2017-07-01,Freiburg,Mönchengladbach,Attack,6000000.0,795.0,True,True,False,True,True,False
+2268,253316,2017-07-01,Bröndby IF,Guingamp,Midfield,225000.0,1021.0,True,True,False,True,False,False
+2281,295755,2017-07-01,Iraklis,Panionios,Defender,0.0,2307.0,True,True,False,True,False,False
+2290,324344,2017-07-01,Atromitos,PAOK,Attack,1200000.0,1624.0,True,True,False,True,False,False
+2331,27493,2017-07-05,Sporting Gijón,CD Leganés,Goalkeeper,0.0,3150.0,True,True,False,True,False,False
+2333,46413,2017-07-05,Sampdoria,Crotone,Attack,0.0,1753.0,True,True,False,True,False,False
+2353,142924,2017-07-07,KV Oostende,Mouscron,Defender,,1494.0,True,True,False,True,False,False
+2361,214715,2017-07-08,Amkar Perm,Red Star,Midfield,500000.0,0.0,False,False,False,True,False,False
+2384,236468,2017-07-12,Stal Kamyanske,Olimpik Donetsk,Defender,0.0,1740.0,True,True,False,True,False,False
+2432,41384,2017-07-22,Stoke City,West Ham,Attack,22300000.0,2373.0,True,True,False,True,True,False
+2452,60445,2017-07-28,Villarreal,LA Galaxy,Midfield,5000000.0,0.0,False,False,False,True,True,False
+2456,242940,2017-07-29,US Palermo,Sassuolo,Defender,4000000.0,1246.0,True,True,False,True,True,False
+2485,88348,2017-08-07,PAS Giannina,PAOK,Goalkeeper,0.0,2340.0,True,True,False,True,False,False
+2491,96043,2017-08-09,NEC Nijmegen,Kalmar FF,Defender,0.0,0.0,False,False,False,True,False,False
+2504,159908,2017-08-11,Trabzonspor,Y. Malatyaspor,Midfield,0.0,2173.0,True,True,False,True,False,False
+2518,221958,2017-08-16,Dynamo Kyiv,KAA Gent,Attack,2000000.0,1681.0,True,True,False,True,False,False
+2549,344888,2017-08-25,FC Metz,Stade Brestois,Attack,0.0,0.0,False,False,False,True,False,False
+2572,35247,2017-08-31,VfL Wolfsburg,PAOK Salonika,Defender,1000000.0,2767.0,True,True,False,True,False,False
+2587,113707,2017-08-31,Marseille,Saint-Étienne,Midfield,0.0,2437.0,True,True,False,True,False,False
+2793,428380,2018-02-05,Volyn Lutsk,Chornomorets,Defender,0.0,901.0,True,True,False,True,False,False
+2795,222977,2018-02-07,Lyngby BK,Aarhus GF,Defender,0.0,2430.0,True,True,False,True,False,False
+2805,136537,2018-02-22,Zorya Lugansk,Karpaty Lviv,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+2818,156775,2018-05-14,Aberdeen FC,Birmingham,Attack,0.0,0.0,False,False,False,True,False,False
+2885,113045,2018-06-30,CD Leganés,Granada CF,Midfield,0.0,0.0,False,False,False,True,False,False
+2906,146799,2018-06-30,Benevento,Juventus,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+2918,160954,2018-06-30,Sparta R.,Mainz,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+2928,177964,2018-06-30,Boavista,FUS Rabat,Attack,0.0,0.0,False,False,False,True,False,False
+2957,203330,2018-06-30,Tondela,Guimarães B,Attack,0.0,0.0,False,False,False,True,False,False
+3008,256866,2018-06-30,Frankfurt,Chivas,Defender,0.0,0.0,False,False,False,True,False,False
+3051,326363,2018-06-30,Belenenses,Atlético,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+3101,56809,2018-07-01,R. Strasbourg,FC Metz,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+3111,72476,2018-07-01,Leverkusen,Arsenal,Goalkeeper,25000000.0,3105.0,True,True,True,True,True,False
+3123,91949,2018-07-01,Vitória Setúbal,Moreirense ,Goalkeeper,0.0,587.0,True,True,False,True,False,False
+3210,225693,2018-07-01,Monaco,Liverpool,Midfield,45000000.0,2830.0,True,True,False,True,True,False
+3231,275159,2018-07-01,Amkar Perm,Enisey,Attack,0.0,657.0,True,True,False,True,False,False
+3233,289510,2018-07-01,Chievo Verona,Standard Liège,Midfield,3000000.0,1221.0,True,True,False,True,True,False
+3297,364258,2018-07-05,Leipzig,Brighton,Defender,10000000.0,2170.0,True,True,False,True,True,False
+3323,222859,2018-07-11,FC Metz,Montpellier,Midfield,2600000.0,2582.0,True,True,False,True,True,False
+3354,105470,2018-07-19,Roma,Liverpool,Goalkeeper,72500000.0,4590.0,True,True,False,True,True,False
+3367,29364,2018-07-24,Monaco,Wolves,Midfield,5600000.0,3444.0,True,True,False,True,True,False
+3404,19619,2018-08-01,Karabükspor,Afyonspor,Goalkeeper,0.0,0.0,False,False,False,True,False,False
+3412,103444,2018-08-02,Excelsior,AE Larisa,Goalkeeper,0.0,3060.0,True,True,False,True,False,False
+3451,295414,2018-08-09,Villarreal,Alavés,Defender,0.0,370.0,True,False,False,True,False,False
+3463,27389,2018-08-12,Atlético Madrid,Valencia,Attack,16000000.0,2655.0,True,True,False,True,True,False
+3527,85864,2018-08-28,Liverpool,Besiktas,Goalkeeper,0.0,3240.0,True,True,False,True,False,False
+3655,174488,2019-01-21,AEK Athens,Bologna,Defender,0.0,0.0,False,False,False,True,False,True
+3659,342472,2019-01-21,Genoa,Hibernian FC,Midfield,0.0,661.0,True,True,False,True,False,True
+3665,45146,2019-01-23,OGC Nice,Marseille,Attack,0.0,941.0,True,True,False,True,False,True
+3700,281919,2019-01-29,Apollon Smyrnis,PAS Lamia,Defender,0.0,451.0,True,True,False,True,False,True
+3701,287635,2019-01-29,Saint-Étienne,Chievo Verona,Midfield,0.0,890.0,True,True,False,True,False,True
+3707,140310,2019-01-30,RSC Anderlecht,R Charleroi SC,Midfield,0.0,2277.0,True,True,False,True,False,True
+3727,64341,2019-01-31,Olimpik Donetsk,Kisvárda,Defender,0.0,0.0,False,False,False,True,False,True
+3729,75471,2019-01-31,Everton,RSC Anderlecht,Attack,0.0,557.0,True,True,False,True,False,True
+3732,88721,2019-01-31,VfL Wolfsburg,FC Schalke 04,Defender,0.0,893.0,True,True,False,True,False,True
+3742,199527,2019-01-31,Newcastle,West Brom,Attack,0.0,0.0,False,False,False,True,False,True
+3806,281404,2019-05-31,Newcastle,Chelsea,Attack,0.0,0.0,False,False,False,True,False,True
+3810,342389,2019-05-31,St. Mirren,Brighton,Attack,0.0,0.0,False,False,False,True,False,True
+3875,167741,2019-06-30,SPAL,Hellas Verona,Midfield,0.0,0.0,False,False,False,True,False,True
+3878,170472,2019-06-30,Getafe,Watford,Defender,0.0,58.0,True,False,False,True,False,True
+3937,236041,2019-06-30,Amiens SC,Toulouse,Midfield,0.0,0.0,False,False,False,True,False,True
+3938,236471,2019-06-30,Alanyaspor,Fenerbahce U21,Midfield,0.0,0.0,False,False,False,True,False,True
+3939,236490,2019-06-30,Torino,Chelsea,Defender,0.0,0.0,False,False,False,True,False,True
+3944,238993,2019-06-30,Kasimpasa,Udinese,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+3956,249994,2019-06-30,Olympiacos,Porto,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+4006,294791,2019-06-30,Zulte Waregem,R Charleroi SC,Attack,0.0,126.0,True,False,False,True,False,True
+4042,340879,2019-06-30,Sassuolo,Alanyaspor,Defender,0.0,0.0,False,False,False,True,False,True
+4059,360517,2019-06-30,VVV-Venlo,Leeds,Attack,0.0,0.0,False,False,False,True,False,True
+4063,368482,2019-06-30,Bologna,Juventus,Attack,0.0,0.0,False,False,False,True,False,True
+4072,386914,2019-06-30,Heerenveen,PSV,Attack,0.0,689.0,True,True,False,True,False,True
+4086,441287,2019-06-30,Aris Saloniki,UD Las Palmas,Attack,0.0,0.0,False,False,False,True,False,True
+4104,40687,2019-07-01,Fenerbahçe,Olympiacos,Midfield,0.0,2233.0,True,True,False,True,False,True
+4134,118689,2019-07-01,Juventus,Roma,Defender,29500000.0,1516.0,True,True,False,True,True,True
+4147,146227,2019-07-01,Barcelona,Valencia,Goalkeeper,35000000.0,2367.0,True,True,False,True,True,True
+4181,211107,2019-07-01,Vit. Guimarães,Santa Clara,Defender,0.0,2687.0,True,True,False,True,False,True
+4186,226802,2019-07-01,Olympiacos,M. Tel Aviv,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+4195,240497,2019-07-01,Konyaspor,Y. Malatyaspor,Attack,0.0,1590.0,True,True,False,True,False,True
+4198,242758,2019-07-01,PAS Giannina,Levski Sofia,Defender,0.0,0.0,False,False,False,True,False,True
+4243,355501,2019-07-01,SSC Napoli,AS Roma,Midfield,21000000.0,1486.0,True,True,False,True,True,True
+4270,182367,2019-07-02,AC Horsens,HB Köge,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+4337,323713,2019-07-10,Sint-Truiden,Royal Antwerp,Midfield,,2027.0,True,True,False,True,False,True
+4367,127181,2019-07-15,Montpellier,Monaco,Goalkeeper,13500000.0,2520.0,True,True,False,True,True,True
+4371,207877,2019-07-16,Genk,Atalanta,Midfield,13600000.0,1598.0,True,True,False,True,True,True
+4510,357884,2019-08-09,Real Valladolid,Espanyol,Defender,8000000.0,1853.0,True,True,False,True,True,True
+4520,65318,2019-08-13,Villarreal,Valencia,Defender,0.0,1890.0,True,True,False,True,False,True
+4521,70245,2019-08-13,Getafe,Girona,Defender,0.0,0.0,False,False,False,True,False,True
+4552,238993,2019-08-19,Udinese,Spezia Calcio,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+4706,398063,2020-01-03,Hamilton Acad.,Reading U23,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+4732,353567,2020-01-10,CSKA Moscow,Portimonense,Attack,0.0,119.0,True,False,False,True,False,True
+4739,232418,2020-01-12,Hertha BSC,Norwich,Midfield,0.0,768.0,True,True,False,True,False,True
+4752,61989,2020-01-14,Hannover 96,TSG Hoffenheim,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+4786,294873,2020-01-22,Lille,Flamengo,Midfield,0.0,0.0,False,False,False,True,False,True
+4791,204201,2020-01-23,Galatasaray,Kayserispor,Defender,0.0,794.0,True,True,False,True,False,True
+4802,375659,2020-01-24,Olimpik Donetsk,PFC Lviv,Goalkeeper,0.0,180.0,True,False,False,True,False,True
+4818,295780,2020-01-28,Panionios,Olympiacos,Defender,0.0,0.0,False,False,False,True,False,True
+4822,78819,2020-01-29,Utrecht,New York,Goalkeeper,,0.0,False,False,False,True,False,True
+4853,81789,2020-01-31,Southampton,Sampdoria,Defender,0.0,2603.0,True,True,False,True,False,True
+4876,282734,2020-01-31,Dynamo Kyiv,Ankaragücü,Attack,0.0,974.0,True,True,False,True,False,True
+4895,517894,2020-01-31,Leipzig,Hertha BSC,Attack,18000000.0,2252.0,True,True,False,True,True,True
+4944,85352,2020-06-30,Union Berlin,VfL Wolfsburg,Midfield,0.0,63.0,True,False,False,True,False,True
+4979,235108,2020-06-30,ADO Den Haag,PSV,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+5001,274862,2020-06-30,FC Nantes,Levante,Attack,0.0,0.0,False,False,False,True,False,True
+5016,318507,2020-06-30,Nîmes Olympique,G. Bordeaux,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+5088,155806,2020-07-01,FC Groningen,Derby,Defender,0.0,0.0,False,False,False,True,False,True
+5113,312731,2020-07-01,Marítimo,Marítimo B,Midfield,,0.0,False,False,False,True,False,True
+5129,47004,2020-07-03,Orenburg,Rotor Volgograd,Goalkeeper,0.0,630.0,True,True,False,True,False,True
+5246,365540,2020-07-31,Vit. Guimarães,Shakhtar D.,Defender,0.0,0.0,False,False,False,True,False,True
+5259,423606,2020-07-31,Zorya Lugansk,Dynamo Kyiv II,Midfield,0.0,0.0,False,False,False,True,False,True
+5337,126337,2020-08-06,Ufa,Akhmat Grozny,Defender,0.0,1508.0,True,True,False,True,False,True
+5390,344519,2020-08-17,Portimonense,Paços Ferreira,Midfield,0.0,2470.0,True,True,False,True,False,True
+5393,182893,2020-08-18,Udinese,Lens,Midfield,8500000.0,2492.0,True,True,False,True,True,True
+5417,84711,2020-08-25,Moreirense ,Pafos,Defender,0.0,0.0,False,False,False,True,False,True
+5432,573775,2020-08-27,Getafe,RM Castilla,Attack,0.0,0.0,False,False,False,True,False,True
+5437,40423,2020-08-30,Man City,Real Betis,Goalkeeper,0.0,1890.0,True,True,False,True,False,True
+5477,234523,2020-08-31,Genoa,Real Betis,Attack,0.0,1153.0,True,True,False,True,False,True
+5485,268178,2020-08-31,SPAL,Atalanta,Midfield,0.0,0.0,False,False,False,True,False,True
+5499,332179,2020-08-31,Hellas Verona,Atalanta,Midfield,0.0,2618.0,True,True,False,True,False,True
+5526,381950,2020-09-01,RSC Anderlecht,AC Milan,Midfield,7650000.0,2718.0,True,True,False,True,True,True
+5618,205657,2020-09-21,Dijon,Arsenal,Goalkeeper,2000000.0,375.0,True,False,True,True,False,True
+5622,128223,2020-09-22,Atlético,Juventus,Attack,0.0,3176.0,True,True,False,True,False,True
+5639,182201,2020-09-25,Aston Villa,Fenerbahçe,Attack,0.0,1540.0,True,True,False,True,False,True
+5659,107775,2020-09-30,Frankfurt,FC Schalke 04,Goalkeeper,0.0,945.0,True,True,False,True,False,True
+5670,327251,2020-10-01,Mainz,Wolfsburg,Defender,10000000.0,3598.0,True,True,False,True,True,True
+5941,450218,2021-02-01,KAS Eupen,Royal Antwerp,Goalkeeper,0.0,698.0,True,True,False,True,False,True
+6011,75458,2021-06-30,Everton,Roma,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+6144,287635,2021-06-30,Ankaragücü,Saint-Étienne,Midfield,0.0,21.0,True,False,False,True,False,True
+6238,379979,2021-06-30,PSV Eindhoven,Bayern Munich,Midfield,0.0,0.0,False,False,False,True,False,True
+6381,64352,2021-07-01,RKC Waalwijk,PEC Zwolle,Goalkeeper,0.0,3330.0,True,True,False,True,False,True
+6494,312493,2021-07-01,VVV-Venlo,Sparta R.,Midfield,,2269.0,True,True,False,True,False,True
+6543,551695,2021-07-01,Ajax,Shakhtar D.,Attack,10000000.0,980.0,True,True,False,True,True,True
+6582,204189,2021-07-05,Galatasaray,Giresunspor,Goalkeeper,0.0,2880.0,True,True,False,True,False,True
+6670,191829,2021-07-16,Atromitos,Sivasspor,Defender,0.0,3076.0,True,True,False,True,False,True
+6860,196829,2021-08-18,RSC Anderlecht,Willem II,Goalkeeper,0.0,2880.0,True,True,False,True,False,True
+6884,142031,2021-08-23,FC Schalke 04,Elche CF,Midfield,0.0,2686.0,True,True,False,True,False,True
+6911,368891,2021-08-26,KV Oostende,Bologna,Defender,0.0,2427.0,True,True,False,True,False,True
+6923,393239,2021-08-27,Heerenveen,Stade Reims,Attack,2000000.0,1164.0,True,True,False,True,False,True
+7010,342995,2021-08-31,Besiktas,Karagümrük,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+7037,503679,2021-08-31,Liverpool,Swansea,Defender,0.0,6.0,True,False,False,True,False,True
+7059,187290,2021-09-06,Kayserispor,Sepsi OSK,Attack,0.0,0.0,False,False,False,True,False,True
+7115,570817,2022-01-02,Parma,Stade Reims,Defender,0.0,1826.0,True,True,False,True,False,True
+7149,395671,2022-01-10,Dijon,Young Boys,Goalkeeper,,0.0,False,False,False,True,False,True
+7165,337798,2022-01-12,Moreirense ,Troyes,Defender,2700000.0,2094.0,True,True,False,True,True,True
+7208,207302,2022-01-21,Paris SG,RCD Mallorca,Goalkeeper,0.0,1350.0,True,True,False,True,False,True
+7301,344107,2022-01-31,St. Mirren,Wigan,Midfield,,0.0,False,False,False,True,False,True
+7306,377468,2022-01-31,Malmö,G. Bordeaux,Defender,0.0,1350.0,True,True,False,True,False,True
+7371,113707,2022-04-06,Krasnodar,Montpellier,Midfield,0.0,313.0,True,False,False,True,False,True
+7412,128223,2022-06-30,Juventus,Atlético,Attack,0.0,2496.0,True,True,False,True,False,True
+7514,277118,2022-06-30,Alavés,Sporting Gijón,Midfield,0.0,0.0,False,False,False,True,False,True
+7573,330060,2022-06-30,PAOK Salonika,Dynamo Kyiv,Defender,0.0,0.0,False,False,False,True,False,True
+7637,371021,2022-06-30,Adana Demirspor,Man City,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+7646,376211,2022-06-30,Adana Demirspor,Espanyol,Attack,0.0,0.0,False,False,False,True,False,True
+7664,393804,2022-06-30,Venezia,Lazio,Midfield,0.0,0.0,False,False,False,True,False,True
+7706,448981,2022-06-30,KS Samara,Spartak Moscow,Attack,0.0,0.0,False,False,False,True,False,True
+7720,467434,2022-06-30,Sint-Truiden,Mönchengladbach,Midfield,0.0,16.0,True,False,False,True,False,True
+7722,469211,2022-06-30,FC Empoli,Sint-Truiden,Defender,0.0,0.0,False,False,False,True,False,True
+7782,596884,2022-06-30,Paços Ferreira,Granada CF,Attack,0.0,0.0,False,False,False,True,False,True
+7803,704156,2022-06-30,Montpellier,SM Caen,Attack,0.0,0.0,False,False,False,True,False,True
+7812,23553,2022-07-01,Sparta R.,PEC Zwolle,Attack,0.0,0.0,False,False,False,True,False,True
+7844,82863,2022-07-01,Norwich,Without Club,Midfield,,0.0,False,False,False,True,False,True
+7906,181337,2022-07-01,Sönderjyske,Western Sydney,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+7929,211325,2022-07-01,Aris Saloniki,Adana Demirspor,Midfield,0.0,2755.0,True,True,False,True,False,True
+8006,336869,2022-07-01,Bayern Munich,Leeds,Midfield,12000000.0,2584.0,True,True,False,True,True,True
+8037,390156,2022-07-01,St. Johnstone,Salford,Attack,0.0,0.0,False,False,False,True,False,True
+8127,286005,2022-07-04,KAS Eupen,KV Mechelen,Attack,0.0,1552.0,True,True,False,True,False,True
+8167,334440,2022-07-07,CSKA Moscow,Krasnodar,Midfield,0.0,1643.0,True,True,False,True,False,True
+8179,181773,2022-07-08,Vizela,Olympiakos N.,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+8183,284165,2022-07-08,Tottenham,Ajax,Attack,31250000.0,3484.0,True,True,False,True,True,True
+8257,283127,2022-07-15,Troyes,Le Havre AC,Defender,,0.0,False,False,False,True,False,True
+8315,190263,2022-07-22,Stade Reims,RCD Mallorca,Goalkeeper,2000000.0,3240.0,True,True,False,True,False,True
+8327,185164,2022-07-23,Arm. Bielefeld,Standard Liège,Defender,750000.0,733.0,True,True,False,True,False,True
+8334,61253,2022-07-25,Fiorentina,Granada CF,Attack,0.0,0.0,False,False,False,True,False,True
+8396,72476,2022-08-02,Arsenal,Fulham,Goalkeeper,3600000.0,3330.0,True,True,False,True,True,True
+8451,573907,2022-08-09,B SAD,Vizela,Goalkeeper,0.0,180.0,True,False,False,True,False,True
+8589,240408,2022-08-30,Viking,Atromitos,Midfield,0.0,1345.0,True,True,False,True,False,True
+8627,445517,2022-08-31,Famalicão,Ponferradina,Attack,0.0,60.0,True,False,False,True,False,True
+8678,284730,2022-09-01,Dortmund,Man City,Defender,20000000.0,4068.0,True,True,False,True,True,True
+8692,372246,2022-09-01,Valencia,PSG,Midfield,18000000.0,1377.0,True,True,False,True,True,True
+8725,294817,2022-09-03,Estoril Praia,Without Club,Goalkeeper,,0.0,False,False,False,True,False,True
+8872,124673,2023-01-13,Ionikos Nikeas,Pendikspor ,Midfield,0.0,72.0,True,False,False,True,False,True
+8912,372240,2023-01-19,Brentford,FC Groningen,Defender,0.0,907.0,True,True,False,True,False,True
+8933,503640,2023-01-23,FC Groningen,Feyenoord,Defender,2000000.0,185.0,True,False,False,True,False,True
+8955,381348,2023-01-26,Aris Saloniki,Panathinaikos,Attack,3000000.0,2314.0,True,True,False,True,True,True
+9038,228444,2023-01-31,Venezia,Genoa,Defender,0.0,722.0,True,True,False,True,False,True
+9178,258919,2023-05-31,Nott'm Forest,Man Utd,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+9252,187491,2023-06-30,Union Berlin,PSV,Defender,0.0,0.0,False,False,False,True,False,True
+9285,238537,2023-06-30,Lecce,Sampdoria,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+9297,255755,2023-06-30,Sevilla FC,Man Utd,Defender,0.0,0.0,False,False,False,True,False,True
+9326,297257,2023-06-30,Vit. Guimarães,Celtic,Attack,0.0,426.0,True,False,False,True,False,True
+9327,298975,2023-06-30,Elche CF,Marseille,Defender,0.0,0.0,False,False,False,True,False,True
+9341,316934,2023-06-30,Bologna,Dynamo Moscow,Midfield,0.0,0.0,False,False,False,True,False,True
+9534,524572,2023-06-30,Rio Ave,Real Valladolid,Attack,0.0,0.0,False,False,False,True,False,True
+9540,532937,2023-06-30,Cremonese,Genoa,Defender,0.0,2943.0,True,True,False,True,False,True
+9584,608469,2023-06-30,Hellas Verona,CSKA Moscow,Attack,0.0,131.0,True,False,False,True,False,True
+9654,28396,2023-07-01,Inter,Fenerbahçe,Attack,0.0,2995.0,True,True,False,True,False,True
+9657,47004,2023-07-01,Torpedo Moscow,Shinnik,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+9659,53536,2023-07-01,Udinese,Melbourne City,Midfield,0.0,0.0,False,False,False,True,False,True
+9684,125714,2023-07-01,Freiburg,Brentford,Goalkeeper,13000000.0,3375.0,True,True,False,True,True,True
+9692,141660,2023-07-01,Nott'm Forest,Without Club,Midfield,,0.0,False,False,False,True,False,True
+9818,463845,2023-07-01,Chornomorets,Kolos Kovalivka,Midfield,0.0,2199.0,True,True,False,True,False,True
+9929,243744,2023-07-06,SC Cambuur,Istanbulspor,Attack,0.0,1564.0,True,True,False,True,False,True
+9955,396411,2023-07-07,PFC Lviv,Zorya Lugansk,Attack,0.0,396.0,True,False,False,True,False,True
+10016,663424,2023-07-13,Randers FC,Malmö,Midfield,1250000.0,0.0,False,False,False,True,False,True
+10031,28003,2023-07-15,PSG,Miami,Attack,0.0,0.0,False,False,False,True,False,True
+10052,127188,2023-07-18,Toulouse,RSC Anderlecht,Goalkeeper,0.0,630.0,True,True,False,True,False,True
+10352,466812,2023-08-16,Viborg FF,Recre Granada,Attack,0.0,0.0,False,False,False,True,False,True
+10435,99254,2023-08-25,Salernitana,Lazio,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+10480,159844,2023-08-30,Frankfurt,Leipzig,Defender,1000000.0,225.0,True,False,False,True,False,True
+10520,505194,2023-08-31,Leicester,Sheff Utd,Defender,0.0,1009.0,True,True,False,True,False,True
+10642,341429,2023-09-04,Tottenham,Galatasaray,Defender,9500000.0,2218.0,True,True,False,True,True,True
+10693,239733,2023-09-14,Fortuna Sittard,Göztepe,Midfield,0.0,178.0,True,False,False,True,False,True
+10722,720930,2023-12-31,BATE Borisov,Dynamo Moscow,Goalkeeper,0.0,90.0,True,False,False,True,False,True
+10845,396640,2024-01-18,Basaksehir,M. Tel Aviv,Midfield,0.0,0.0,False,False,False,True,False,True
+10853,197521,2024-01-19,Giresunspor,Vojvodina,Midfield,0.0,306.0,True,False,False,True,False,True
+10858,461963,2024-01-19,Vit. Guimarães,FC Dordrecht,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+10866,371013,2024-01-20,Fortuna Sittard,Hull City,Goalkeeper,2000000.0,0.0,False,False,False,True,False,True
+10892,53286,2024-01-25,Portimonense,Without Club,Midfield,,0.0,False,False,False,True,False,True
+10918,926694,2024-01-26,Royal Antwerp,Atlético,Midfield,20000000.0,160.0,True,False,False,True,True,True
+10925,127188,2024-01-28,RSC Anderlecht,Nice,Goalkeeper,0.0,90.0,True,False,False,True,False,True
+10928,475413,2024-01-28,Galatasaray,Bayern Munich,Defender,30000000.0,431.0,True,False,False,True,True,True
+10940,573981,2024-01-29,Basaksehir,Hatayspor,Defender,0.0,2062.0,True,True,False,True,False,True
+10978,211845,2024-01-31,KV Mechelen,M. Tel Aviv,Attack,350000.0,0.0,False,False,False,True,False,True
+11011,649024,2024-01-31,Ankaragücü,FC Nantes,Midfield,2000000.0,0.0,False,False,False,True,False,True
+11019,881610,2024-01-31,FC Sheriff,Genoa,Attack,2500000.0,104.0,True,False,False,True,True,True
+11043,343184,2024-02-01,Go Ahead Eagles,NEC Nijmegen,Attack,,551.0,True,True,False,True,False,True
+11066,535834,2024-02-01,Monaco,Royal Antwerp,Midfield,0.0,19.0,True,False,False,True,False,True
+11067,542415,2024-02-01,Hvidovre,Sirius,Midfield,,0.0,False,False,False,True,False,True
+11197,245048,2024-03-09,SC Dnipro-1,Polissya,Defender,500000.0,483.0,True,True,False,True,False,True
+11291,182712,2024-06-30,Barcelona,Man City,Defender,0.0,0.0,False,False,False,True,False,True
+11336,257751,2024-06-30,FC Empoli,Spezia Calcio,Midfield,0.0,0.0,False,False,False,True,False,True
+11347,275218,2024-06-30,Granada CF,River Plate,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+11431,377641,2024-06-30,Besiktas,Braga,Midfield,0.0,0.0,False,False,False,True,False,True
+11439,386914,2024-06-30,Utrecht,Rangers,Attack,0.0,0.0,False,False,False,True,False,True
+11467,410854,2024-06-30,Fortuna Sittard,FC Groningen,Attack,0.0,0.0,False,False,False,True,False,True
+11470,415970,2024-06-30,Besiktas,Nott'm Forest,Defender,0.0,0.0,False,False,False,True,False,True
+11559,540064,2024-06-30,PAS Giannina,PAOK Saloniki B,Attack,0.0,0.0,False,False,False,True,False,True
+11581,574901,2024-06-30,Chaves,Flamengo,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+11616,632088,2024-06-30,Excelsior,Club Brugge,Midfield,0.0,0.0,False,False,False,True,False,True
+11766,49016,2024-07-01,Veres Rivne,Without Club,Goalkeeper,,0.0,False,False,False,True,False,True
+11812,76326,2024-07-01,Maccabi Haifa,Royal Antwerp,Midfield,0.0,2381.0,True,True,False,True,False,True
+12024,301037,2024-07-01,KAS Eupen,Khimki,Defender,0.0,2790.0,True,True,False,True,False,True
+12120,466452,2024-07-01,AE Kifisias,Without Club,Defender,,0.0,False,False,False,True,False,True
+12370,688690,2024-07-11,Portimonense,Novorizontino,Defender,0.0,0.0,False,False,False,True,False,True
+12449,588426,2024-07-17,UD Las Palmas,Torino,Defender,8230000.0,3025.0,True,True,False,True,True,True
+12638,670681,2024-08-05,Benfica,PSG,Midfield,65920000.0,3869.0,True,True,False,True,True,True
+12665,775709,2024-08-08,FC Oleksandriya,Maccabi Haifa,Goalkeeper,100000.0,0.0,False,False,False,True,False,True
+12865,1028162,2024-08-28,Le Havre AC,Parma,Attack,2700000.0,0.0,False,False,False,True,True,True
+12948,571743,2024-08-30,Chelsea,Everton,Attack,0.0,353.0,True,False,False,True,False,True
+13004,726114,2024-09-02,Loko Moscow,Al-Ittihad,Defender,0.0,0.0,False,False,False,True,False,True
+13080,766258,2024-12-31,Vit. Guimarães,Coritiba FC,Attack,0.0,0.0,False,False,False,True,False,True
+13101,935015,2025-01-01,Corvinul,U Cluj,Goalkeeper,100000.0,0.0,False,False,False,True,False,True
+13202,158799,2025-01-20,KAA Gent,Nagoya Grampus,Goalkeeper,850000.0,0.0,False,False,False,True,False,True
+13365,345449,2025-01-31,Salzburg,Kasimpasa,Defender,0.0,1102.0,True,True,False,True,False,True
+13394,190268,2025-02-01,Omonia Nicosia,Sivasspor,Attack,150000.0,650.0,True,True,False,True,False,True
+13413,368891,2025-02-02,Stade Rennais,Frankfurt,Defender,13000000.0,3757.0,True,True,False,True,True,True
+13467,448705,2025-02-03,Ajax,Dortmund,Goalkeeper,5000000.0,0.0,False,False,False,True,True,True
+13506,177547,2025-02-04,Braga,Ajax,Goalkeeper,0.0,900.0,True,True,False,True,False,True
+13562,265153,2025-02-19,Spartak Moscow,Ural,Goalkeeper,0.0,0.0,False,False,False,True,False,True
+13611,948273,2025-05-31,Real Valladolid,Real Madrid,Midfield,0.0,0.0,False,False,False,True,False,True

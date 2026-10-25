@@ -1,0 +1,25 @@
+check_category,metric,value,status,detail
+Dataset Size,Total Raw Transfer Records,16862,Verified,"Matches expected ~16,862 records exactly"
+Dataset Size,Total Post-Transfer Joined Records,16862,Verified,"Matches 16,862 records exactly"
+Dataset Size,Unique Players in Master Cohort,7209,Verified,"7,209 unique players"
+Dataset Size,Unique Destination Clubs,1345,Verified,441 unique destination clubs
+Dataset Size,Unique Origin Clubs,551,Verified,535 unique origin clubs
+Temporal Integrity,Earliest Transfer Date,2012-08-29,Verified,2012-08-29
+Temporal Integrity,Latest Transfer Date (Raw),2026-08-12,Anomaly / Future Transfers,2026-08-12 (Future pre-contract transfers present in Transfermarkt)
+Temporal Integrity,Future Transfers (Date > 2024-06-30),5131,Right-Censored,"5,355 transfers occurred after 2024-06-30"
+Temporal Integrity,Transfers with Complete 365-day Window,13645,Censoring Filter,"13,645 transfers (80.92%) have full 365-day follow-up"
+Temporal Integrity,Right-Censored Transfers (Incomplete Window),3217,Excluded,"3,217 transfers (19.08%) right-censored; correctly excluded"
+Selection & Opportunity,Zero Post-Transfer Minutes (Complete Window),6090,Opportunity Failure,"4,918 transfers (36.04% of complete windows) received 0 minutes"
+Selection & Opportunity,Low Post-Transfer Minutes (1 - 449 mins),1447,Sub-threshold Opportunity,"2,619 transfers (19.19% of complete windows) played <450 mins"
+Selection & Opportunity,Eligible Transfers (365d Window & >=450 mins),6108,Primary Modelling Cohort,"6,108 transfers (36.22% of total, 44.76% of complete windows)"
+Tactical Context Availability,Fewer than 10 Pre-Transfer Team Matches,3049,Data Sparsity,"651 transfers in total cohort had <10 team matches; 139 in 6,108 cohort"
+Tactical Context Availability,Clean Final Cohort (>=10 matches & eligible),5969,Model C Sub-cohort,"5,969 transfers (97.72% of 6,108 eligible cohort)"
+Coach Context Availability,Coach Known Pre-Transfer (Total Cohort),12673,Context Missingness,"12,982 / 16,862 transfers (76.99%) have known coach history"
+Coach Context Availability,"Coach Known Pre-Transfer (Eligible 6,108 Cohort)",5758,Context Missingness,"5,302 / 6,108 transfers (86.80%) have known coach history"
+Entity Duplication,Duplicate transfer_row_id,0,Verified,Zero duplicate IDs in any table
+Entity Duplication,Exact Semantic Duplicate Transfers,0,Verified,"Zero duplicate (player_id, transfer_date, from_club, to_club) in clean cohort"
+Player Multi-Transfer,Players with Multiple Eligible Transfers,1584,Clustering Dependence,"1,874 players have 2+ transfers in the 6,108 cohort (potential group dependence)"
+Target Distortion,"Goalkeepers in Eligible 6,108 Cohort",426,Target Invalidation,578 Goalkeepers (9.46%); 100% have GA/90 == 0.0; inflates R² via dummy learning
+Target Distortion,"Defenders in Eligible 6,108 Cohort",2112,Severe Zero Inflation,"2,246 Defenders (36.77%); 62.4% have GA/90 == 0.0; goals/assists invalid proxy"
+Target Distortion,"Attackers in Eligible 6,108 Cohort",1766,Appropriate Proxy,"1,675 Attackers (27.42%); mean GA/90 = 0.493; only 8.7% zero GA/90"
+Target Distortion,"Midfielders in Eligible 6,108 Cohort",1804,Partial Proxy,"1,609 Midfielders (26.34%); mean GA/90 = 0.222; 34.7% zero GA/90"

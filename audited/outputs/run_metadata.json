@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "chronological_split": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "split_boundary": "whole transfer dates; nearest cumulative 60/80 percent",
+  "initial_joined_rows": 16862,
+  "eligible_full_window_rows": 6108,
+  "primary_common_cohort_rows": 6108,
+  "exact_duplicate_transfer_rows_removed": 0,
+  "n_train": 3837,
+  "n_validation": 1057,
+  "n_test": 1214,
+  "tuning_rule": "validation MAE, no test feedback",
+  "fit_rule": "refit chosen setting on train+validation before final test"
+}

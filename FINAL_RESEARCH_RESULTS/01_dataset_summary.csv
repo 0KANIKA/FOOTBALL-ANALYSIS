@@ -1,0 +1,14 @@
+Metric,Value
+Final cohort size,5969
+Total dataset columns,74
+Minimum transfer date,2012-09-03
+Maximum transfer date,2025-06-10
+Unique players,3399
+Unique destination clubs,396
+Duplicate transfer IDs,0
+Missing target values,0
+Target mean,0.25765420197684946
+Target median,0.1781002638522427
+Target standard deviation,0.25206014695368545
+Target minimum,0.0
+Target maximum,1.867219917012448

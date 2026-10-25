@@ -1,0 +1,4 @@
+comparison,model_1,model_2,Wilcoxon_statistic,p_value,significant_at_0.05
+A_vs_B,A,B,319050.0,0.0015786438449761,True
+B_vs_C,B,C,347158.0,0.4229612796753864,False
+A_vs_C,A,C,328867.0,0.0194868624233682,True

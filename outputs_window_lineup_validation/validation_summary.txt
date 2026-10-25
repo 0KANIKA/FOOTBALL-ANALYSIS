@@ -1,0 +1,17 @@
+WINDOW AND LINEUP VALIDATION SUMMARY
+====================================
+Project: C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics
+Rows: 16,862
+Master contains window_start/window_end: True
+Best tested convention by exact-match sum: start_inclusive_end_inclusive
+
+Comparison metrics are in window_convention_comparison.csv.
+Detailed comparison for the best tested convention is in best_window_target_comparison.csv.
+Pre-transfer lineup features are in mode_a_pretransfer_lineup_features.csv.
+
+Cautions:
+- The best tested convention is a diagnostic, not automatic proof of the intended definition.
+- Review all metrics, especially GA/90, and verify how the master target was originally constructed.
+- Lineup records measure selection/lineup status, not minutes played; treat starting rate as a selection signal.
+- Lineup features use only records dated strictly before transfer_date.
+- Do not add computed post-transfer columns to model predictors.

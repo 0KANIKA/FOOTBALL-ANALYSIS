@@ -1,0 +1,6 @@
+{
+  "event_files_processed": 500,
+  "event_file_selection": "lexicographically first 500 local StatsBomb event files",
+  "identity_method": "exact normalized player name with unique Transfermarkt target only",
+  "coverage_note": "This is a separate limited-coverage enrichment subset; it is not representative of the full transfer cohort."
+}

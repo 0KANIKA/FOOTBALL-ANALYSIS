@@ -1,0 +1,147 @@
+FOOTBALL ANALYTICS DATASET INSPECTION
+================================================================================
+StatsBomb: C:\Users\rsuba\Downloads\R football analytics\open-data-master\open-data-master\data
+Transfermarkt: C:\Users\rsuba\Downloads\R football analytics\archive
+
+StatsBomb exists: True | directory: True
+
+Transfermarkt exists: True | directory: True
+
+================================================================================
+TRANSFERMARKT / CSV FILES
+================================================================================
+
+FILE: players.csv
+SIZE: 16.45 MB
+ROWS: 50,149 (50.15K)
+COLUMNS (26): player_id, first_name, last_name, name, last_season, current_club_id, player_code, country_of_birth, city_of_birth, country_of_citizenship, date_of_birth, sub_position, position, foot, height_in_cm, contract_expiration_date, agent_name, image_url, international_caps, international_goals, current_national_team_id, url, current_club_domestic_competition_id, current_club_name, market_value_in_eur, highest_market_value_in_eur
+SAMPLE: 10 | Miroslav | Klose | Miroslav Klose | 2015 | 398 | miroslav-klose | Poland | Opole | Germany | 1978-06-09 00:00:00 | Centre-Forward | Attack | right | 184 |  | ASBW Sport Marketing | https://img.a.transfermarkt.technology/portrait/header/10-1448468291.jpg?lm=1 |  |  |  | https://www.transfermarkt.co.uk/miroslav-klose/profil/spieler/10 | IT1 | Società Sportiva Lazio S.p.A. | 1000000 | 30000000
+
+FILE: transfers.csv
+SIZE: 14.18 MB
+ROWS: 175,165 (175.16K)
+COLUMNS (10): player_id, transfer_date, transfer_season, from_club_id, to_club_id, from_club_name, to_club_name, transfer_fee, market_value_in_eur, player_name
+SAMPLE: 467994 | 2030-06-30 | 25/26 | 5621 | 749 | Reggiana | FC Empoli | 0.000 | 700000.000 | Luca Belardinelli
+
+FILE: clubs.csv
+SIZE: 0.18 MB
+ROWS: 796
+COLUMNS (17): club_id, club_code, name, domestic_competition_id, total_market_value, squad_size, average_age, foreigners_number, foreigners_percentage, national_team_players, stadium_name, stadium_seats, net_transfer_record, coach_name, last_season, filename, url
+SAMPLE: 10 | arminia-bielefeld | Arminia Bielefeld | L1 |  | 27 | 25.3 | 15 | 55.6 | 4 | SchücoArena | 26515 | +€5.90m |  | 2021 | ../data/raw/transfermarkt-scraper/2021/clubs.json.gz | https://www.transfermarkt.co.uk/arminia-bielefeld/startseite/verein/10
+
+FILE: games.csv
+SIZE: 23.88 MB
+ROWS: 88,958 (88.96K)
+COLUMNS (23): game_id, competition_id, season, round, date, home_club_id, away_club_id, home_club_goals, away_club_goals, home_club_position, away_club_position, home_club_manager_name, away_club_manager_name, stadium, attendance, referee, url, home_club_formation, away_club_formation, home_club_name, away_club_name, aggregate, competition_type
+SAMPLE: 1026846 | FIWC | 2009 | Round of 16 | 2010-06-26 | 3449 | 3589 | 2 | 1 |  |  | Óscar Tabárez | Jung-moo Huh | Nelson Mandela Bay Stadium | 30597 | Wolfgang Stark | https://www.transfermarkt.co.uk/spielbericht/index/spielbericht/1026846 |  |  | Uruguay | South Korea | 2:1 | national_team_competition
+
+FILE: appearances.csv
+SIZE: 142.24 MB
+ROWS: 1,894,350 (1.89M)
+COLUMNS (13): appearance_id, game_id, player_id, player_club_id, player_current_club_id, date, player_name, competition_id, yellow_cards, red_cards, goals, assists, minutes_played
+SAMPLE: 2231978_38004 | 2231978 | 38004 | 853 | 235 | 2012-07-03 | Aurélien Joachim | CLQ | 0 | 0 | 2 | 0 | 90
+
+FILE: game_events.csv
+SIZE: 149.61 MB
+ROWS: 1,274,469 (1.27M)
+COLUMNS (11): game_event_id, date, game_id, minute, type, club_id, club_name, player_id, description, player_in_id, player_assist_id
+SAMPLE: 60d28dc455d299f5abdb65d7204fef40 | 2010-06-26 | 1026846 | 69 | Cards | 3589 | South Korea | 1772 | 1. Yellow card  , Foul |  | 
+
+FILE: game_lineups.csv
+SIZE: 336.07 MB
+ROWS: 3,179,016 (3.18M)
+COLUMNS (10): game_lineups_id, date, game_id, player_id, club_id, player_name, type, position, number, team_captain
+SAMPLE: b2dbe01c3656b06c8e23e9de714e26bb | 2013-07-27 | 2317258 | 1443 | 610 | Christian Poulsen | substitutes | Defensive Midfield | 5 | 0
+
+FILE: club_games.csv
+SIZE: 10.53 MB
+ROWS: 177,916 (177.92K)
+COLUMNS (11): game_id, club_id, own_goals, own_position, own_manager_name, opponent_id, opponent_goals, opponent_position, opponent_manager_name, hosting, is_win
+SAMPLE: 1026846 | 3449 | 2 |  | Óscar Tabárez | 3589 | 1 |  | Jung-moo Huh | Home | 1
+
+FILE: competitions.csv
+SIZE: 0.01 MB
+ROWS: 65
+COLUMNS (11): competition_id, competition_code, name, sub_type, type, country_id, country_name, domestic_league_code, confederation, total_clubs, url
+SAMPLE: A1 | bundesliga | bundesliga | first_tier | domestic_league | 127 | Austria | A1 | europa | 12 | https://www.transfermarkt.co.uk/bundesliga/startseite/wettbewerb/A1
+
+FILE: countries.csv
+SIZE: 0.01 MB
+ROWS: 124
+COLUMNS (8): country_id, country_name, country_code, confederation, total_clubs, total_players, average_age, url
+SAMPLE: 10 | Armenia | ARM1 | europa | 10 | 267 | 25.0 | https://www.transfermarkt.co.uk/wettbewerbe/national/wettbewerbe/10
+
+FILE: national_teams.csv
+SIZE: 0.03 MB
+ROWS: 124
+COLUMNS (17): national_team_id, name, team_code, country_id, country_name, country_code, confederation, team_image_url, squad_size, average_age, foreigners_number, foreigners_percentage, total_market_value, coach_name, fifa_ranking, last_season, url
+SAMPLE: 10521 | San Marino | san-marino | 144 | San Marino | SMR1 | UEFA | https://tmssl.akamaized.net//images/wappen/homepageWappen150x150/10521.png?lm=17 | 26 | 23.8 | 18 | 69.2 | 1250000 |  | 211 | 2025 | https://www.transfermarkt.co.uk/san-marino/startseite/verein/10521
+
+FILE: player_valuations.csv
+SIZE: 30.48 MB
+ROWS: 656,301 (656.30K)
+COLUMNS (6): player_id, date, market_value_in_eur, current_club_name, current_club_id, player_club_domestic_competition_id
+SAMPLE: 405973 | 2000-01-20 | 150000 | Unknown | 3057 | BE1
+
+================================================================================
+STATSBOMB / JSON FILES
+================================================================================
+TOTAL JSON FILES: 8977
+
+FILES BY DIRECTORY:
+  .: 1
+  events: 4235
+  lineups: 4235
+  matches/11: 18
+  matches/116: 1
+  matches/12: 2
+  matches/1238: 1
+  matches/1267: 1
+  matches/131: 1
+  matches/135: 1
+  matches/1470: 1
+  matches/16: 18
+  matches/182: 1
+  matches/2: 2
+  matches/223: 1
+  matches/35: 1
+  matches/37: 4
+  matches/43: 8
+  matches/44: 1
+  matches/49: 2
+  matches/53: 2
+  matches/55: 2
+  matches/7: 3
+  matches/72: 2
+  matches/81: 2
+  matches/87: 3
+  matches/9: 2
+  three-sixty: 426
+
+--------------------------------------------------------------------------------
+STATSBOMB DIRECTORY: events
+--------------------------------------------------------------------------------
+events\15946.json | 3.11 MB | list | length=3762 | keys=['id', 'index', 'period', 'timestamp', 'minute', 'second', 'type', 'possession', 'possession_team', 'play_pattern', 'team', 'duration', 'tactics']
+events\15956.json | 2.73 MB | list | length=3342 | keys=['id', 'index', 'period', 'timestamp', 'minute', 'second', 'type', 'possession', 'possession_team', 'play_pattern', 'team', 'duration', 'tactics']
+events\15973.json | 2.87 MB | list | length=3440 | keys=['id', 'index', 'period', 'timestamp', 'minute', 'second', 'type', 'possession', 'possession_team', 'play_pattern', 'team', 'duration', 'tactics']
+
+--------------------------------------------------------------------------------
+STATSBOMB DIRECTORY: lineups
+--------------------------------------------------------------------------------
+lineups\15946.json | 0.02 MB | list | length=2 | keys=['team_id', 'team_name', 'lineup']
+lineups\15956.json | 0.02 MB | list | length=2 | keys=['team_id', 'team_name', 'lineup']
+lineups\15973.json | 0.02 MB | list | length=2 | keys=['team_id', 'team_name', 'lineup']
+
+--------------------------------------------------------------------------------
+STATSBOMB DIRECTORY: three-sixty
+--------------------------------------------------------------------------------
+three-sixty\3764440.json | 9.64 MB | list | length=3914 | keys=['event_uuid', 'visible_area', 'freeze_frame']
+three-sixty\3764661.json | 9.20 MB | list | length=3637 | keys=['event_uuid', 'visible_area', 'freeze_frame']
+three-sixty\3773369.json | 10.97 MB | list | length=4422 | keys=['event_uuid', 'visible_area', 'freeze_frame']
+
+================================================================================
+NEXT STEP
+================================================================================
+Do not merge yet. We will first inspect seasons, competitions, IDs, dates, and player/team matching.
+StatsBomb events will be processed file-by-file to avoid loading the massive dataset into RAM.
+three-sixty remains optional until its usefulness is established.

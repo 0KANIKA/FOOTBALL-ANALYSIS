@@ -1,0 +1,24 @@
+{
+  "sample_size": 400,
+  "sampling_strategy": "Stratified across 4 positions and 3 temporal eras",
+  "position_distribution": {
+    "Midfield": 102,
+    "Goalkeeper": 100,
+    "Defender": 99,
+    "Attack": 99
+  },
+  "era_distribution": {
+    "(2020, 2026]": 135,
+    "(2016, 2020]": 133,
+    "(2011, 2016]": 132
+  },
+  "transfers_with_appearances": 228,
+  "transfers_with_appearances_pct": 57.0,
+  "eligible_450min_transfers": 192,
+  "eligible_450min_transfers_pct": 48.0,
+  "statsbomb_open_data_candidate_pct": 1.25,
+  "sofascore_expected_coverage_pct": 79.5,
+  "whoscored_expected_coverage_pct": 18.75,
+  "fotmob_expected_coverage_pct": 53.0,
+  "selection_bias_caution": "Over 40% of sampled transfers have 0 post-transfer minutes; evaluating match ratings introduces extreme survivorship bias towards regular starters."
+}

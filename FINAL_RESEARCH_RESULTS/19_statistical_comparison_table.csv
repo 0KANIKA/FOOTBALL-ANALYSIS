@@ -1,0 +1,4 @@
+Comparison,Model 1,Model 2,MAE (Model 1),MAE (Model 2),Mean MAE Difference,95% Bootstrap CI,MAE Change,CI Excludes Zero
+A vs B,A,B,0.1232,0.1210,+0.0021,"[0.0008, 0.0034]",-1.71%,Yes
+B vs C,B,C,0.1210,0.1213,-0.0003,"[-0.0016, 0.0010]",+0.23%,No
+A vs C,A,C,0.1232,0.1213,+0.0018,"[0.0002, 0.0034]",-1.49%,Yes

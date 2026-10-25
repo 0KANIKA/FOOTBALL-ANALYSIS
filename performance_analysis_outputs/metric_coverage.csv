@@ -1,0 +1,43 @@
+metric,status,source_columns,unit,calculation_window,total_records,eligible_records,nonmissing_records,coverage_pct_of_total,coverage_pct_of_eligible,notes
+goals,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+assists,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+goal_contributions,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+goals_per90,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+assists_per90,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+goal_contributions_per90,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+minutes_per_appearance,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+yellow_cards_per90,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+red_cards_per90,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+cards_per_appearance,derived_from_existing_columns,appearances.csv,rate/count,full observed appearance history,29531,29531,29531,100.0,100.0,
+starts,derived_from_existing_columns,game_lineups.csv:type,appearances,full observed history,29531,29531,19557,66.23,66.23,Only starting_lineup records counted.
+substitute_appearances,derived_from_existing_columns,appearances.csv - starts,appearances,full observed history,29531,29531,19557,66.23,66.23,Derived as total appearances minus verified starts; bench listings are not treated as appearances.
+first_year_post_minutes,already_present,post_transfer_performance.csv / player_valuations.csv / transfers.csv,count/rate,transfer-specific,16862,16862,16862,100.0,100.0,
+450_minute_outcome,already_present,post_transfer_performance.csv / player_valuations.csv / transfers.csv,count/rate,transfer-specific,16862,16862,16862,100.0,100.0,
+market_value_change_365,derived_from_existing_columns,post_transfer_performance.csv / player_valuations.csv / transfers.csv,count/rate,transfer-specific,16862,16862,15302,90.75,90.75,
+market_value_change_pct_365,derived_from_existing_columns,post_transfer_performance.csv / player_valuations.csv / transfers.csv,count/rate,transfer-specific,16862,16862,15302,90.75,90.75,
+fee_to_market_value_ratio,derived_from_existing_columns,post_transfer_performance.csv / player_valuations.csv / transfers.csv,count/rate,transfer-specific,16862,4589,4589,27.22,100.0,
+attacking_output_per_million_fee,derived_from_existing_columns,post_transfer_performance.csv / player_valuations.csv / transfers.csv,count/rate,transfer-specific,16862,4589,4589,27.22,100.0,Descriptive only; no causal value claim.
+season_attacking_and_availability,derived_from_existing_columns,appearances.csv + games.csv,counts/rates,verified games.season,97985,97985,97985,100.0,100.0,
+statsbomb_matches,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,3181,100.0,100.0,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_events,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,3181,100.0,100.0,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_passes,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,3158,99.28,99.28,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_passes_completed,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,3145,98.87,98.87,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_carries,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,3159,99.31,99.31,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_shot_assists,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2135,67.12,67.12,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_blocks,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2658,83.56,83.56,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_duels,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2746,86.33,86.33,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_aerial_duels,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2441,76.74,76.74,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_interceptions,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2316,72.81,72.81,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_pressures,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,3032,95.32,95.32,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_shots,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2305,72.46,72.46,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_shots_on_target,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2091,65.73,65.73,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_clearances,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2396,75.32,75.32,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_goal_assists,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,930,29.24,29.24,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_goals,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,1076,33.83,33.83,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_dribbles,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,2378,74.76,74.76,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_goalkeeper_events,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,250,7.86,7.86,Exact normalized-name match only; separate limited-coverage subset.
+statsbomb_passing_accuracy,derived_from_existing_columns,StatsBomb events/*.json,event count,matched StatsBomb matches,3181,3181,3145,98.87,98.87,Exact normalized-name match only; separate limited-coverage subset.
+passing_accuracy_full_cohort,not_calculable_current_data,none,not available,not applicable,29531,0,0,0.0,0.0,No Transfermarkt pass attempts/completions; StatsBomb subset only.
+xG_xA_full_cohort,not_calculable_current_data,none,not available,not applicable,29531,0,0,0.0,0.0,No reliable full-cohort xG/xA source in local files.
+goalkeeper_save_percentage_full_cohort,not_calculable_current_data,none,not available,not applicable,29531,0,0,0.0,0.0,No full-cohort saves/shots-on-target-faced fields.
+duplicate_appearance_ids_removed,quality_check,appearances.csv:appearance_id,records,source file,29531,0,0,0.0,0.0,Exact identifier duplicates were retained only once in the derived layer.

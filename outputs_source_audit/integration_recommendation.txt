@@ -1,0 +1,22 @@
+SOURCE COVERAGE AUDIT — RECOMMENDATIONS
+==========================================
+Project: C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics
+Transfer cohort rows: 16,862
+Unique cohort players: 7,209
+
+Interpretation:
+- Player-ID overlap is a screening metric, not proof that the source covers the correct transfer window, competition, club, or metric.
+- Keep Mode A unchanged until candidate coverage and feature timing are validated.
+- Never fill missing tackles/passing/interceptions/duels with zero; missing means unobserved unless proven otherwise.
+- Build post-transfer rates using the same window and eligibility rules as the existing target.
+- Use only pre-transfer observations as predictors; post-transfer stats belong only in targets.
+
+Best next checks:
+1. Review source_coverage_summary.csv and rank candidate files by unique-player overlap.
+2. Review player_match_audit.csv for unmatched players and missing transfer dates/club IDs.
+3. Review target_availability.csv before adding targets.
+4. For any promising source, validate a sample of matched players and dates manually.
+5. Re-run the same chronological evaluation and report performance on the same eligible rows.
+
+No --candidate-dir was supplied. This run audits the project's existing archive only.
+To test an external free dataset, extract its CSV files into a separate folder and rerun with --candidate-dir.
