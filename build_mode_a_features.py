@@ -31,9 +31,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-DEFAULT_PROJECT = Path(
-    r"C:\Users\rsuba\Downloads\R football analytics (4)\R football analytics"
-)
+DEFAULT_PROJECT = Path(__file__).resolve().parent
 
 def read_csv(path: Path, usecols=None) -> pd.DataFrame:
     if not path.exists():

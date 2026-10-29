@@ -2,3 +2,38 @@
 /open-data-master/
 *.zip
 ~$*
+
+# Python caches, environments, and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# R local state and project metadata
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# Logs, editor files, and temporary exports
+*.log
+*.tmp
+*.bak
+.DS_Store
+.vscode/
+.idea/
+
+# Locally generated model artifacts and app test exports.
+# The committed Shiny Model C artifact is added explicitly because the app uses it.
+/*.joblib
+model_a_new_results/
+outputs_updated_models/
+model_comparison_report/
+visual_results/
+new_player_transfer_app/outputs/
+new_player_transfer_app/models/model_A.rds
+new_player_transfer_app/models/model_B.rds
+new_player_transfer_app/models/model_C.rds

@@ -23,8 +23,7 @@ except ImportError:
 # ============================================================
 # SETTINGS
 # ============================================================
-
-BASE_DIR = r"C:\Users\rsuba\Downloads\R football analytics"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 TRANSFER_FILE = os.path.join(
     BASE_DIR,
@@ -606,10 +605,10 @@ for model_name, model in models.items():
     ])
 
 
+
     print(
         "Training..."
     )
-
 
     pipeline.fit(
         X_train,
@@ -617,13 +616,30 @@ for model_name, model in models.items():
     )
 
 
+    # SAVE RANDOM FOREST PIPELINE
+    if model_name == "Random Forest":
+        import joblib
+        from pathlib import Path
+
+        output_path = Path("model_a_new_results")
+        output_path.mkdir(parents=True, exist_ok=True)
+
+        joblib.dump(
+            {
+                "pipeline": pipeline,
+                "features": features,
+                "target": TARGET
+            },
+            output_path / "random_forest_pipeline.joblib"
+        )
+
+        print("Random Forest pipeline saved successfully.")
+
     # --------------------------------------------------------
     # PREDICTIONS
     # --------------------------------------------------------
 
-    train_pred = pipeline.predict(
-        X_train
-    )
+    train_pred = pipeline.predict(X_train)
 
     val_pred = pipeline.predict(
         X_val
