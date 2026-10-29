@@ -1,0 +1,2 @@
+"prediction_date","player_label","model","target","predicted_post_GA90","units","transfer_fee","transfer_market_value","market_value_pre","warnings"
+"2026-10-29","Genuinely new player","Model C — Rich Context","post_GA90",0.421710503087365,"goals plus assists per 90 minutes",1e+07,8e+06,7e+06,"none"

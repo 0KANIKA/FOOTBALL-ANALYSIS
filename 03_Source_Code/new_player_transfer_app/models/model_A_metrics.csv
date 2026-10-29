@@ -1,0 +1,2 @@
+"model","split","n","MAE","RMSE","R2"
+"model_A","chronological_holdout",1194,0.124225926688769,0.174667174031783,0.539117120425613

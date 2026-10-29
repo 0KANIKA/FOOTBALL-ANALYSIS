@@ -26,6 +26,21 @@ env/
 .vscode/
 .idea/
 
+# Reorganized external data and generated artifacts
+04_Datasets/raw_transfer_data/open-data-master/
+04_Datasets/raw_transfer_data/excluded_archives/
+04_Datasets/raw_transfer_data/archive/appearances.csv
+04_Datasets/raw_transfer_data/archive/game_events.csv
+04_Datasets/raw_transfer_data/archive/game_lineups.csv
+04_Datasets/raw_transfer_data/archive/coach_tactical_audit.csv
+04_Datasets/raw_transfer_data/archive/build_post_transfer.py.bak
+04_Datasets/raw_transfer_data/archive/0
+04_Datasets/raw_transfer_data/archive/450
+04_Datasets/raw_transfer_data/archive/merged[[]window_start]
+03_Source_Code/python/**/*.joblib
+03_Source_Code/python/**/*.pyc
+03_Source_Code/new_player_transfer_app/**/*.Rhistory
+
 # Locally generated model artifacts and app test exports.
 # The committed Shiny Model C artifact is added explicitly because the app uses it.
 /*.joblib
